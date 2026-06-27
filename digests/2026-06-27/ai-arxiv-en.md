@@ -1,123 +1,120 @@
 # ArXiv AI Research Digest 2026-06-27
 
-> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-06-27 00:27 UTC
+> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-06-27 08:27 UTC
 
 ---
 
-Here is the structured ArXiv AI Research Digest for **2026-06-27**.
+Here is the structured ArXiv AI Research Digest for June 27, 2026.
 
 ---
 
-### 1. Today’s Highlights
+## ArXiv AI Research Digest — 2026-06-27
 
-Today’s submissions reveal a mature field grappling with fundamental reliability and efficiency issues. A major focus is on moving beyond naive "bigger is better" scaling, with papers exposing hard ceilings on multi-model ensembles (co-failure ceiling) and challenging the dominance of large architectures in time-series forecasting. There is a strong push toward test-time scaling and autonomous correction in embodied agents and scientific modeling, coupled with critical work on understanding and mitigating hallucinations in generative world models. Finally, research on safety and misuse is deepening, moving from simple content filtering to analyzing structural vulnerabilities like prompt injection in hiring and the dynamics of "nudification" communities.
+### 1. Today's Highlights
+
+Today's submissions signal a strong shift toward **verifiable and robust reinforcement learning** for LLMs, moving beyond ground-truth dependencies. A critical theoretical breakthrough reveals a fundamental accuracy ceiling for multi-model LLM systems (routing, voting, MoA), while new work demonstrates that **hallucination in world models is both predictable and preventable** by targeting low-coverage state spaces. In methods, a novel optimizer (Hierarchical Muon) promises to dramatically reduce the computational cost of training large-scale neural networks. Finally, the intersection of **generative models and analog hardware** re-emerges as a potential low-power alternative for modern AI workloads.
 
 ### 2. Key Papers
 
 #### 🧠 Large Language Models (architecture, training, alignment, evaluation)
 
-- **Reinforcement Learning without Ground-Truth Solutions can Improve LLMs**
-  http://arxiv.org/abs/2606.27369v1
-  *Yingyu Lin, Qiyue Gao, Nikki Lijing Kuang et al.*
-  Introduces RiVER, a ranking-induced verifiable framework that enables RL for LLMs on tasks where ground-truth solutions are unknown, significantly expanding the applicability of RLVR.
+- **Reinforcement Learning without Ground-Truth Solutions can Improve LLMs**  
+  http://arxiv.org/abs/2606.27369v1  
+  *Lin, Gao, Kuang et al.*  
+  Introduces **RiVER**, a ranking-induced verifiable framework that extends RLVR to tasks where ground-truth solutions are unknown, dramatically broadening the applicability of RL-based LLM training.
 
-- **When does Combining Language Models Help? A Co-Failure Ceiling on Routing, Voting, and Mixture-of-Agents Across 67 Frontier Models**
-  http://arxiv.org/abs/2606.27288v1
-  *Josef Chen*
-  Proves a "co-failure ceiling" for multi-model systems, showing that unless one model is perfect, accuracy is fundamentally bounded by the rate of simultaneous failure, a hard limit overlooked by the field.
+- **When does Combining Language Models Help? A Co-Failure Ceiling on Routing, Voting, and Mixture-of-Agents Across 67 Frontier Models**  
+  http://arxiv.org/abs/2606.27288v1  
+  *Josef Chen*  
+  Proves a rigorous **co-failure ceiling** on multi-model systems, showing that accuracy cannot exceed one minus the joint failure probability of member models—a critical design constraint for LLM ensembles.
 
-- **Ask, Don't Judge: Binary Questions for Interpretable LLM Evaluation and Self-Improvement**
-  http://arxiv.org/abs/2606.27226v1
-  *Sangwoo Cho, Kushal Chawla, Pengshan Cai et al.*
-  Proposes BINEVAL, a framework that replaces opaque holistic scores with decomposable binary questions, making LLM evaluation more interpretable and enabling targeted self-improvement.
+- **When are likely answers right? On Sequence Probability and Correctness in LLMs**  
+  http://arxiv.org/abs/2606.27359v1  
+  *Zenn, Geiping*  
+  Investigates the fundamental relationship between sequence probability and correctness, revealing when and why likelihood-maximizing decoding methods succeed or fail.
 
-- **LMs as Task-Specific Knowledge Bases: An Interpretability Analysis**
-  http://arxiv.org/abs/2606.27237v1
-  *Amit Elhelo, Amir Globerson, Mor Geva*
-  Investigates whether language models function as consistent knowledge bases, finding that task-specific knowledge is often not stored in a single, query-invariant location, challenging a core assumption in model editing.
+- **Paved with True Intents: Intent-Aware Training Improves LLM Safety Classification Across Training Regimes**  
+  http://arxiv.org/abs/2606.27210v1  
+  *Ferrao, Müller-Hof, Sîrbu et al.*  
+  Introduces **AIMS**, a human-annotated dataset of 1,724 safety prompts with explicit intent labels, demonstrating that modeling user intent as an explicit signal significantly improves safety classification.
 
-- **Paved with True Intents: Intent-Aware Training Improves LLM Safety Classification Across Training Regimes**
-  http://arxiv.org/abs/2606.27210v1
-  *Jeremias Ferrao, Niclas Müller-Hof, Iustin Sîrbu et al.*
-  Introduces AIMS, a dataset of challenging safety prompts with intent annotations, demonstrating that explicitly modeling user intent significantly improves the robustness of safety classifiers.
-
-- **Prompt Injection in Automated Résumé Screening with Large Language Models: Single and Multi-Injection Settings**
-  http://arxiv.org/abs/2606.27287v1
-  *Preet Baxi, Jiannan Xu, Jane Yi Jiang et al.*
-  Systematically studies the vulnerability of LLM-based hiring systems to prompt injection, showing that subtle, non-qualification-based text can manipulate rankings in both single and multi-injection scenarios.
+- **Ask, Don't Judge: Binary Questions for Interpretable LLM Evaluation and Self-Improvement**  
+  http://arxiv.org/abs/2606.27226v1  
+  *Cho, Chawla, Cai et al.*  
+  Proposes **BINEVAL**, a framework decomposing LLM evaluation into interpretable binary questions, enabling more transparent and debuggable quality assessment.
 
 #### 🤖 Agents & Reasoning (planning, tool use, multi-agent, chain-of-thought)
 
-- **Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning**
-  http://arxiv.org/abs/2606.27330v1
-  *Tianyi Men, Zhuoran Jin, Pengfei Cao et al.*
-  Addresses the planning weakness of small open-source MLLMs by enabling them to autonomously explore GUI environments and learn from hindsight, boosting task success without costly large model APIs.
+- **Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning**  
+  http://arxiv.org/abs/2606.27330v1  
+  *Men, Jin, Cao et al.*  
+  Enables small open-source multimodal LLMs to improve GUI task planning by autonomously exploring environments and leveraging hindsight experience, reducing reliance on expensive commercial models.
 
-- **E-TTS: A New Embodied Test-Time Scaling Framework for Robotic Manipulation**
-  http://arxiv.org/abs/2606.27268v1
-  *Wen Ye, Peiyan Li, Tingyu Yuan et al.*
-  Proposes a test-time scaling framework for robotic manipulation that explicitly manages reasoning depth and historical context, unlocking performance gains during inference.
+- **Multilingual Reasoning Cascades Need More Context**  
+  http://arxiv.org/abs/2606.27306v1  
+  *Mazumder, Zhang, Li et al.*  
+  Identifies a structural weakness in translation cascades for multilingual reasoning—each stage discards context—and proposes mitigation strategies to preserve fidelity across languages.
 
-- **Advancing Omnimodal Embodied Agents from Isolated Skills to Everyday Physical Autonomy**
-  http://arxiv.org/abs/2606.27251v1
-  *Junhao Shi, Zezheng Huai, Siyin Wang et al.*
-  Presents a unified architecture for embodied agents that integrates cyber (APIs, IoT) and physical (manipulation) skills with autonomous recovery from failures, a key step toward long-horizon real-world operation.
-
-- **A Process Harness for Uplifting Legacy Workflows to Agentic BPM: Design and Realization in CUGA FLO**
-  http://arxiv.org/abs/2606.27188v1
-  *Fabiana Fournier, Lior Limonad*
-  Introduces a "process harness" to wrap deterministic legacy workflow engines with an agentic layer, enabling intelligent, policy-governed decision-making without replacing existing infrastructure.
+- **Automating Potential-based Reward Shaping with Vision Language Model Guidance**  
+  http://arxiv.org/abs/2606.27180v1  
+  *Müller, Kudenko*  
+  Uses vision-language models to automatically design potential-based reward shaping functions, mitigating sparse reward challenges in RL without manual engineering or reward hacking.
 
 #### 🔧 Methods & Frameworks (new techniques, benchmarks, efficiency improvements)
 
-- **Hallucination in World Models is Predictable and Preventable**
-  http://arxiv.org/abs/2606.27326v1
-  *Nicklas Hansen, Xiaolong Wang*
-  Identifies that world model hallucinations concentrate in low-coverage state-action regions and demonstrates that they can be predicted and prevented, a critical advance for model-based RL.
+- **Hierarchical Muon: Tiled Newton-Schulz Updates for Efficient Muon Optimization**  
+  http://arxiv.org/abs/2606.27216v1  
+  *Tang, Xu, Saad et al.*  
+  Introduces a tiled, hierarchical approximation to the Muon optimizer, reducing computational cost by up to an order of magnitude without sacrificing convergence quality.
 
-- **Error-Conditioned Neural Solvers**
-  http://arxiv.org/abs/2606.27354v1
-  *Haina Jiang, Liam Wang, Peng-Chen Chen et al.*
-  Develops neural surrogate models for PDEs that can detect and correct their own violations, enabling accurate extrapolation beyond the training distribution.
+- **Beyond the Hard Budget: Sparsity Regularizers for More Interpretable Top-k Sparse Autoencoders**  
+  http://arxiv.org/abs/2606.27321v1  
+  *Jacquier, Vakalopoulou, Hosseini*  
+  Replaces the hard top-k sparsity constraint in SAEs with soft sparsity regularizers, yielding more monosemantic and interpretable features for vision foundation models.
 
-- **Forecasting With LLMs: Improved Generalization Through Feature Steering**
-  http://arxiv.org/abs/2606.27199v1
-  *Humzah Merchant, Bradford Levy*
-  Uses sparse autoencoders to steer internal LLM representations away from temporal overfitting, improving generalization in forecasting tasks—a novel application of mechanistic interpretability.
+- **Generative Models on Analog Hardware with Dynamics**  
+  http://arxiv.org/abs/2606.27294v1  
+  *Wang, Achour*  
+  Bridges the gap between modern generative models and analog hardware (coupled oscillators, Ising Machines), enabling low-power sampling via differential equation dynamics.
 
-- **How Good Can Linear Models Be for Time-Series Forecasting?**
-  http://arxiv.org/abs/2606.27282v1
-  *Lang Huang, Jinglue Xu, Luke Darlow*
-  Challenges the trend toward large architectures for time-series, showing that carefully tuned linear models can close most of the performance gap at a fraction of the cost.
+- **Ribbon: Scalable Approximation and Robust Uncertainty Quantification**  
+  http://arxiv.org/abs/2606.27269v1  
+  *Gibson, Tipton, Rumsey et al.*  
+  A new scalable method for uncertainty quantification that generalizes Bayesian and bootstrap approaches to modern high-dimensional, misspecified models.
+
+- **CARVE: Content-Aware Recurrent with Value Efficiency for Chunk-Parallel Linear Attention**  
+  http://arxiv.org/abs/2606.27229v1  
+  *Sayak Dutta*  
+  Fixes a memory-blind gating flaw in delta-rule linear attention architectures, improving content-aware forgetting and retention efficiency.
 
 #### 📊 Applications (domain-specific, multimodal, code generation)
 
-- **Mapping Political-Elite Networks in Europe with a Multilingual Joint Entity-Relation Extraction Pipeline**
-  http://arxiv.org/abs/2606.27347v1
-  *Kirill Solovev, Jana Lasser*
-  Deploys a multilingual NER and relation extraction pipeline to automatically map complex political and rent-seeking networks from text, enabling large-scale computational social science.
+- **Hallucination in World Models is Predictable and Preventable**  
+  http://arxiv.org/abs/2606.27326v1  
+  *Hansen, Wang*  
+  Demonstrates that world model hallucination concentrates in low-coverage regions of state-action space and can be mitigated via coverage-aware training, a key result for safe embodied AI.
 
-- **HarmVideoBench: Benchmarking Harmful Video Understanding in Large Multimodal Models**
-  http://arxiv.org/abs/2606.27187v1
-  *Jiajun Wu, Haoyu Kang, Yining Sun et al.*
-  Introduces a benchmark with multi-layered harmful video annotations, revealing significant gaps in current LVLMs' ability to understand harmful content in dynamic video contexts.
+- **E-TTS: A New Embodied Test-Time Scaling Framework for Robotic Manipulation**  
+  http://arxiv.org/abs/2606.27268v1  
+  *Ye, Li, Yuan et al.*  
+  Proposes a test-time scaling framework for embodied agents that effectively allocates reasoning compute and historical context for complex manipulation tasks.
 
-- **From Celebrities to Anyone: Characterizing AI Nudification Content, Technology, and Community Dynamics on 4chan**
-  http://arxiv.org/abs/2606.27234v1
-  *Chi Cui, Yixin Wu, Yang Zhang*
-  Provides a large-scale analysis of the "nudification" ecosystem on anonymous platforms, finding a shift from targeting only celebrities to targeting non-public individuals.
+- **Forecasting With LLMs: Improved Generalization Through Feature Steering**  
+  http://arxiv.org/abs/2606.27199v1  
+  *Merchant, Levy*  
+  Applies sparse autoencoders to inspect LLM internal states during forecasting, revealing reliance on temporal features and enabling feature steering for improved generalization.
 
 ### 3. Research Trend Signal
 
-A clear emergent trend is the shift from **static, one-shot capabilities** to **dynamic, test-time self-correction and adaptation**. This is visible across scales: from world models and neural PDE solvers that predict and correct their own errors, to embodied agents that recover from physical failures, to LLM evaluation systems that use interpretable binary probes for self-improvement. Rather than just building bigger pre-trained models, the field is focusing on *how* a model uses its own inference compute to improve its output. This is coupled with a growing **hard-nosed skepticism** about naive scaling and ensembling, with papers providing rigorous bounds on when and why these strategies fail. The community is turning a critical eye on its own assumptions about model combination, test-time compute, and the nature of knowledge in LLMs.
+A clear emergent theme is **accountability and theory for multi-model & multi-agent systems**. Papers like the co-failure ceiling ([27288]) and the work on sequence probability vs. correctness ([27359]) move beyond empirical comparisons to fundamental limits and principled understanding. Simultaneously, the focus on **verifiable reward signals**—from RiVER to intent-aware safety classifiers—suggests the field is maturing toward training paradigms that are both more robust and less reliant on costly human annotation. This complements a growing push for **interpretability at scale**, seen both in sparse autoencoder refinements ([27321]) and in decomposable evaluation frameworks. Finally, the convergence of **generative modeling with non-digital hardware** ([27294]) points to a renewed interest in alternative compute substrates, driven by energy efficiency constraints.
 
 ### 4. Worth Deep Reading
 
-1.  **"Hallucination in World Models is Predictable and Preventable"** — This paper pinpoints a critical failure mode in generative world models and offers a concrete, actionable path to mitigation. Given the importance of world models for planning and simulation, this work has high impact potential for both model-based RL and video generation.
+1. **"Reinforcement Learning without Ground-Truth Solutions can Improve LLMs"** ([27369]) — **Why:** RiVER directly tackles a core limitation of current RLVR (reliance on ground-truth answers). If scalable, this could unlock RL-based training for open-ended, creative, and reasoning-heavy tasks where verifiable answers do not exist.
 
-2.  **"When does Combining Language Models Help? A Co-Failure Ceiling..."** — A paradigm-challenging paper. It formally proves a fundamental limit on multi-model systems that is rarely discussed, which has immediate practical implications for the design of model routing, voting, and Mixture-of-Agent architectures deployed in production.
+2. **"When does Combining Language Models Help? A Co-Failure Ceiling..."** ([27288]) — **Why:** This paper provides a formal, testable ceiling on the entire class of multi-model architectures (routing, voting, MoA). It is a must-read for anyone designing or deploying LLM systems, as it reframes the problem from "which combination works best" to "how do we break the co-failure bottleneck."
 
-3.  **"Error-Conditioned Neural Solvers"** — A strong example of the test-time self-correction trend in a high-stakes domain (scientific computing). This approach of building error-awareness directly into the model's forward pass is a promising direction for making neural surrogates more reliable and trustworthy in engineering and physics applications.
+3. **"Hallucination in World Models is Predictable and Preventable"** ([27326]) — **Why:** For embodied AI and robotics, world model hallucination is a critical safety barrier. This paper offers a tractable, theoretically grounded diagnosis (low-coverage regions) and a prevention strategy, moving the field from treating hallucination as an inevitable failure mode to a manageable engineering problem.
 
 ---
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+*This digest is auto-generated by [agents-radar](https://github.com/Lux0206/agents-radar).*

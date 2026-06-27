@@ -1,51 +1,101 @@
 # Hugging Face Trending Models Digest 2026-06-27
 
-> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-06-27 00:27 UTC
+> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-06-27 08:27 UTC
 
 ---
 
-Here is the structured Hugging Face Trending Models Digest for 2026-06-27.
+Here is the structured Hugging Face Trending Models Digest for June 27, 2026.
 
 ---
 
-### 1. Today's Highlights
+## 1. Today's Highlights
 
-This week’s trending models reveal a strong shift toward **multimodal MoE (Mixture of Experts) architectures** and **ultra-efficient quantized deployments**, driven by both community finetuners and major labs like NVIDIA and Qwen. The standout release is **nvidia/Qwen3.6-35B-A3B-NVFP4**, which, despite being a quantization, has amassed over 4.8 million downloads, underscoring massive demand for high-quality, compact reasoning models. Concurrently, **GLM-5.2** emerged as a major new open-weight contender, achieving high engagement across base, quantized, and fine-tuned variants. On the vision side, **nvidia/LocateAnything-3B** and **baidu/Unlimited-OCR** signal a growing focus on specialized, lightweight image-to-text tools for enterprise use cases.
+The Hugging Face Hub this week is defined by a massive surge in community-driven large-scale quantization, led by a new "Uncensored" variant of Qwen 3.6 that has amassed over 3.4 million downloads. The Qwen model family continues to dominate, with new branches like Qwen-AgentWorld signaling a shift toward agentic and reasoning-focused architectures. We also see a strong showing from NVIDIA with optimized inference models (NVFP4) and streaming ASR, while the rise of "Fable" and "Mythos" fine-tunes suggests a growing appetite for stylized, creative, and uncensored model variants. Baidu’s Unlimited-OCR marks a significant push into high-volume document understanding, and the Krea-2 suite signals a new wave of high-quality, open-weight text-to-image models.
 
-### 2. Trending Models
+## 2. Trending Models
 
-#### 🧠 Language Models (LLMs, Chat, Instruction-Tuned)
-- **[GLM-5.2](https://huggingface.co/zai-org/GLM-5.2)** by zai-org (2,589 likes, 83k downloads) – A powerful new MoE-based LLM from Zhipu AI, trending due to strong performance and rapid community quantizations (see unsloth & NVIDIA variants).
-- **[MiniMax-M3](https://huggingface.co/MiniMaxAI/MiniMax-M3)** by MiniMaxAI (1,246 likes, 170k downloads) – A flagship multimodal MoE model gaining traction for combining vision and language in a single dense-activation architecture.
-- **[VibeThinker-3B](https://huggingface.co/WeiboAI/VibeThinker-3B)** by WeiboAI (731 likes, 55k downloads) – A small, efficient Qwen-2 based model that excels at math reasoning, popular for educational and mobile use cases.
+### 🧠 Language Models (LLMs, chat models, instruction-tuned)
 
-#### 🎨 Multimodal & Generation (Image, Video, Audio, Text-to-X)
-- **[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR)** by baidu (1,040 likes, 134k downloads) – A state-of-the-art OCR model fine-tuned for unlimited-length text extraction from images, trending due to its enterprise-grade robustness.
-- **[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B)** by nvidia (2,383 likes, 495k downloads) – A 3B parameter grounding model that excels at spatial localization in images, bridging the gap between vision and language.
-- **[Krea-2-Turbo](https://huggingface.co/krea/Krea-2-Turbo)** by krea (285 likes, 9k downloads) – The latest iteration of Krea’s text-to-image model, optimized for speed and quality via distillation.
+- **[zai-org/GLM-5.2](https://huggingface.co/zai-org/GLM-5.2)** | *zai-org* | 2,624 likes | 83,589 downloads  
+  The flagship GLM MoE model (likely the DSA variant) gaining massive popularity for its conversational and reasoning capabilities.
 
-#### 🔧 Specialized Models (Code, Math, Medical, Embeddings, Audio)
-- **[nvidia/nemotron-3.5-asr-streaming-0.6b](https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b)** by nvidia (707 likes, 56k downloads) – A small, streaming-capable ASR model for real-time speech recognition, popular for latency-sensitive applications.
-- **[WeiboAI/VibeThinker-3B](https://huggingface.co/WeiboAI/VibeThinker-3B)** by WeiboAI (731 likes, 55k downloads) – Listed again for its strong specialized math reasoning performance on a 3B parameter footprint.
-- **[microsoft/FastContext-1.0-4B-SFT](https://huggingface.co/microsoft/FastContext-1.0-4B-SFT)** by microsoft (355 likes, 6k downloads) – A Qwen-3 based model fine-tuned for long-context tasks, signaling Microsoft’s push into retrieval-based AI.
+- **[WeiboAI/VibeThinker-3B](https://huggingface.co/WeiboAI/VibeThinker-3B)** | *WeiboAI* | 735 likes | 54,638 downloads  
+  A compact 3B model based on Qwen2, specializing in math and chat, trending for its high performance-to-size ratio.
 
-#### 📦 Fine-tunes & Quantizations (Community Fine-Tunes, GGUF, AWQ)
-- **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)** by HauhauCS (2,263 likes, 3.45M downloads) – A highly downloaded uncensored MoE fine-tune of Qwen3.6, optimized via aggressive QAT quantization.
-- **[yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF](https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF)** by yuxinlu1 (2,398 likes, 516k downloads) – The top-rated GGUF quantization of a Gemma-4 coder fine-tune, highly popular for local coding assistants.
-- **[unsloth/GLM-5.2-GGUF](https://huggingface.co/unsloth/GLM-5.2-GGUF)** by unsloth (410 likes, 108k downloads) – Unsloth’s optimized GGUF pack of GLM-5.2, making the large MoE model accessible on consumer hardware.
-- **[nvidia/Qwen3.6-35B-A3B-NVFP4](https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4)** by nvidia (361 likes, 4.81M downloads) – NVIDIA’s FP4 quantization of the Qwen3.6 MoE, setting download records due to its unprecedented efficiency/quality trade-off.
+- **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)** | *HauhauCS* | 2,268 likes | 3,453,492 downloads  
+  An "uncensored" MoE variant of Qwen 3.6, aggressively fine-tuned and heavily downloaded in the GGUF community for local deployment.
 
-### 3. Ecosystem Signal
+- **[nvidia/Qwen3.6-35B-A3B-NVFP4](https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4)** | *nvidia* | 363 likes | 4,812,629 downloads  
+  NVIDIA’s Model Optimizer-quantized version of Qwen 3.6 (4-bit floating point), the most downloaded model on this list, optimized for high-throughput inference.
 
-**MoE is the dominant paradigm.** Eight of the top 30 models use Mixture-of-Experts architectures (Qwen3.5/3.6 MoE, GLM-5.2, LFM2.5), signaling that the community is fully embracing sparse activation for both performance and cost. **Quantization is no longer an afterthought—it’s a primary release.** NVIDIA’s NVFP4 format and community GGUF packs are driving the highest download counts, with quantized models often outperforming base model downloads by 10-100x, particularly for code and agentic workloads.
+- **[microsoft/FastContext-1.0-4B-SFT](https://huggingface.co/microsoft/FastContext-1.0-4B-SFT)** | *microsoft* | 359 likes | 5,735 downloads  
+  Microsoft’s new 4B model aimed at long-context and agentic tasks (Explorer SubAgent), trending for its efficiency in agent loops.
 
-**Open-weight momentum continues.** Major labs (Zhipu, NVIDIA, MiniMax, Microsoft) are releasing weights freely, while the fine-tuning ecosystem (HauhauCS, yuxinlu1, empero-ai) is rapidly abliterating, quantizing, and adapting these bases. The trend toward **uncensored fine-tunes** (Qwen3.6-Aggressive, Gemma4-QAT-Uncensored) suggests a persistent demand for unrestricted creative and roleplaying capabilities. Finally, **vision-language models are maturing**—OCR, grounding, and multimodal MoE models are no longer niche but core to the daily trending list.
+- **[LiquidAI/LFM2.5-230M](https://huggingface.co/LiquidAI/LFM2.5-230M)** | *LiquidAI* | 120 likes | 8,286 downloads  
+  A tiny 230M parameter model from Liquid AI, pushing the boundaries of what small models can achieve in text generation.
 
-### 4. Worth Exploring
+### 🎨 Multimodal & Generation (image, video, audio, text-to-X)
 
-1.  **[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B)** – Most worth studying for its efficient vision grounding approach; it demonstrates how to build a capable spatial reasoning model at a 3B size, ideal for robotics and document AI pipelines.
-2.  **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)** – Worth exploring as a case study in aggressive quantization (QAT) and uncensored fine-tuning of MoE models. Its massive download count reflects a real community need.
-3.  **[nvidia/nemotron-3.5-asr-streaming-0.6b](https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b)** – A must-try for voice applications. This 0.6B streaming model achieves competitive accuracy while running on low-power edge devices, representing the future of local speech AI.
+- **[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR)** | *baidu* | 1,075 likes | 134,146 downloads  
+  Baidu’s flagship OCR model (image-text-to-text) for unlimited document transcription, trending due to high accuracy and scalability.
+
+- **[krea/Krea-2-Turbo](https://huggingface.co/krea/Krea-2-Turbo)** | *krea* | 294 likes | 8,721 downloads  
+  A fast, distilled version of the Krea-2 text-to-image model, popular for rapid creative generation.
+
+- **[krea/Krea-2-Raw](https://huggingface.co/krea/Krea-2-Raw)** | *krea* | 207 likes | 10,408 downloads  
+  The base "Raw" text-to-image model from Krea, representing a new open-weight alternative in the image generation space.
+
+- **[nvidia/nemotron-3.5-asr-streaming-0.6b](https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b)** | *nvidia* | 712 likes | 56,434 downloads  
+  NVIDIA’s 0.6B streaming ASR model, a top trend for real-time speech recognition pipelines.
+
+- **[MiniMaxAI/MiniMax-M3](https://huggingface.co/MiniMaxAI/MiniMax-M3)** | *MiniMaxAI* | 1,248 likes | 169,951 downloads  
+  A new multimodal model from MiniMax (M3 variant, vision-language), trending for its strong performance on visual understanding.
+
+- **[datalab-to/lift](https://huggingface.co/datalab-to/lift)** | *datalab-to* | 159 likes | 6,054 downloads  
+  A Qwen 3.5-based image-text-to-text model specialized in PDF and document parsing.
+
+- **[Jackrong/Qwopus3.6-27B-Coder-Compat-MTP-GGUF](https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-Compat-MTP-GGUF)** | *Jackrong* | 95 likes | 35,027 downloads  
+  A GGUF-quantized 27B vision-language model (Qwen-based), trending for its coding and MTP (multi-turn processing) compat.
+
+### 🔧 Specialized Models (code, math, medical, embeddings)
+
+- **[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B)** | *nvidia* | 2,391 likes | 494,756 downloads  
+  NVIDIA’s new 3B feature-extraction model for robust object localization, trending for its use in robotics and visual search.
+
+- **[Chunjiang-Intelligence/DeepSeek-v4-Fable](https://huggingface.co/Chunjiang-Intelligence/DeepSeek-v4-Fable)** | *Chunjiang-Intelligence* | 108 likes | 1,103 downloads  
+  A security-tuned variant of DeepSeek v4, positioning itself in the cybersecurity fine-tune niche.
+
+### 📦 Fine-tunes & Quantizations (community fine-tunes, GGUF, AWQ)
+
+- **[empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF](https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF)** | *empero-ai* | 620 likes | 486,810 downloads  
+  A “Mythos” styled GGUF fine-tune of a Qwen 3.5 variant, heavily downloaded for creative/roleplay use.
+
+- **[yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF](https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF)** | *yuxinlu1* | 2,410 likes | 516,333 downloads  
+  The most popular Gemma 4 coding GGUF, a “Fable” style Composer 2.5 fine-tune, dominating local coding model use.
+
+- **[unsloth/GLM-5.2-GGUF](https://huggingface.co/unsloth/GLM-5.2-GGUF)** | *unsloth* | 419 likes | 107,553 downloads  
+  Unsloth’s GGUF quantization of the base GLM-5.2, optimized for fast, memory-efficient inference on consumer hardware.
+
+- **[huihui-ai/Huihui-gemma-4-12B-coder-fable5-composer2.5-v1-abliterated](https://huggingface.co/huihui-ai/Huihui-gemma-4-12B-coder-fable5-composer2.5-v1-abliterated)** | *huihui-ai* | 136 likes | 5,445 downloads  
+  An “abliterated” (refusal-removed) version of the Gemma 4 coder, trending for its unrestricted coding capability.
+
+- **[deepreinforce-ai/Ornith-1.0-35B-GGUF](https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF)** | *deepreinforce-ai* | 257 likes | 3,002 downloads  
+  A GGUF quant of the new Ornith-1.0-35B (Qwen 3.5 MoE based), representing a strong contender in the mid-scale MoE GGUF space.
+
+- **[HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced](https://huggingface.co/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced)** | *HauhauCS* | 93 likes | 23,772 downloads  
+  A “balanced” uncensored QAT (quantization-aware training) quant of Gemma 4, multimodal-ready.
+
+## 3. Ecosystem Signal
+
+The ecosystem this week is overwhelmingly driven by the **Qwen (3.5/3.6)** and **Gemma 4** model families, with an explosion of GGUF quantization and community fine-tuning. The trend toward **uncensored and “abaliterated” variants** is unmistakable—users are aggressively pushing for models with minimal safety guardrails, particularly for local, private deployment. **NVIDIA’s NVFP4 quantization** is emerging as a high-bandwidth standard for serving large MoE models (e.g., Qwen 3.6) on enterprise-grade hardware. On the open-weight side, **GLM-5.2** from Zhipu AI continues to solidify its position as a leading conversational MoE baseline, while **Liquid AI’s sub-1B models** signal a push toward extreme efficiency for edge deployment. The introduction of **Krea-2** and its Turbo variant points to a maturing open-weight text-to-image landscape, challenging the dominance of proprietary APIs.
+
+## 4. Worth Exploring
+
+1. **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)** — With over 3.4 million downloads, this is the definitive “uncensored” GGUF variant of the new Qwen 3.6 MoE. It is essential for anyone studying the intersection of community desire for open-weight model customization and the performance of modern MoE architectures.
+
+2. **[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B)** — A 3B model with 2,391 weekly likes that represents a notable shift toward compact, task-specific vision models. It is a strong candidate for those building applications in spatial reasoning, robotics, or visual grounding without needing a large VLM.
+
+3. **[MiniMaxAI/MiniMax-M3](https://huggingface.co/MiniMaxAI/MiniMax-M3)** — A highly-liked 1,248-likes multimodal model that is showing strong competition to GPT-4V-level vision-language models. It is worth studying for its architecture choices and its potential as a high-quality open alternative in the multimodal space.
 
 ---
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+*This digest is auto-generated by [agents-radar](https://github.com/Lux0206/agents-radar).*

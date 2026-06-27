@@ -1,83 +1,145 @@
 # AI Open Source Trends 2026-06-27
 
-> Sources: GitHub Trending + GitHub Search API | Generated: 2026-06-27 00:27 UTC
+> Sources: GitHub Trending + GitHub Search API | Generated: 2026-06-27 08:27 UTC
 
 ---
 
-# AI Open Source Ecosystem Trends Report — 2026-06-27
+# AI Open Source Trends Report
+**Date**: 2026-06-27
+
+---
 
 ## 1. Today's Highlights
 
-The AI open-source ecosystem today is unmistakably dominated by **agent harnesses and coding agent productivity tools**. Two projects—`google-labs-code/design.md` (+2,407 stars today) and `garrytan/gstack` (+950)—exemplify a new wave: they package opinionated, pre-configured agent toolkits that turn Claude Code into a full-team simulation (CEO, designer, engineer, QA). Simultaneously, the **agent-to-Internet bridge** is crystallizing: `Agent-Reach` (+1,194) gives agents read access to Twitter, Reddit, YouTube, and Bilibili with zero API fees, while `OpenMontage` (+1,754) pushes agents into video production with 52 tools and 500+ skills. On the RAG/infrastructure side, `MinerU` (+960) continues to prove that PDF-to-LLM-markdown pipelines are table stakes for any serious agentic workflow. The signal is clear: the community is moving past "can my agent code" to "can my agent see, plan, design, and produce like a human team."
+The AI open-source ecosystem today is dominated by **agent infrastructure** and **agent-powered vertical applications**, with several projects surpassing 1,000 stars in a single day. The most explosive growth comes from **OpenMontage** (+1,754 stars today), presenting the first open-source agentic video production system, signaling a shift from text/chat agents to **multimodal production agents**. Meanwhile, **design.md** by Google Labs (+2,407 stars) introduces a new protocol for giving coding agents persistent visual identity understanding, representing a new frontier in **agent-designer collaboration**. The **multi-agent value investing framework** ai-berkshire (+1,274 stars) and **Agent-Reach** (+1,194 stars) demonstrate that agent systems are rapidly commoditizing access to data and complex reasoning workflows. Notably, **Claude Code ecosystem** projects (gstack, learn-claude-code) continue to attract significant attention, solidifying the pattern of "opinionated agent setups" becoming a distinct software category.
+
+---
 
 ## 2. Top Projects by Category
 
 ### 🔧 AI Infrastructure
 
-- **[google-labs-code/design.md](https://github.com/google-labs-code/design.md)** ⭐0 (+2,407 today) — A DESIGN.md specification for giving coding agents persistent, structured understanding of a visual identity; today's biggest star-gainer and a potential new standard for AI-driven design systems.
-- **[aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws)** ⭐0 (+243 today) — Official AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS; signals enterprise agent infrastructure maturation.
-- **[garrytan/gstack](https://github.com/garrytan/gstack)** ⭐0 (+950 today) — Garry Tan's exact Claude Code setup with 23 opinionated tools simulating CEO, Designer, Eng Manager, QA, and more; a "personal startup OS" for solo developers.
-- **[zilliztech/claude-context](https://github.com/zilliztech/claude-context)** ⭐11,975 (topic:vector-db) — Code search MCP for Claude Code that makes the entire codebase the context window; bridges vector DB technology with agent coding workflows.
-- **[alibaba/zvec](https://github.com/alibaba/zvec)** ⭐12,508 (topic:vector-db) — A lightweight, lightning-fast in-process vector database from Alibaba; important for embedded/local AI use cases.
-- **[vllm-project/vllm](https://github.com/vllm-project/vllm)** ⭐84,467 (topic:llm) — High-throughput LLM inference and serving engine; remains the backbone for self-hosted model deployment.
+- **[design.md](https://github.com/google-labs-code/design.md)** — ⭐2,407 today, 2,407 total
+  A format specification for describing visual identity to coding agents, giving agents persistent structured understanding of design systems — a potential new standard for AI-assisted UI development.
+
+- **[agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws)** — ⭐243 today, 243 total
+  Official AWS-supported MCP servers and plugins for AI agents to build on AWS infrastructure, showing major cloud adoption of open agent protocols.
+
+- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** — 47,860 total [topic:ai-agent]
+  AI productivity studio unifying smart chat, autonomous agents, and 300+ assistants with unified access to frontier LLMs.
+
+- **[samchon/nestia](https://github.com/samchon/nestia)** — 2,160 total [topic:llm-model]
+  NestJS helper for AI chatbot development, bridging TypeScript backend frameworks with LLM integration.
+
+- **[raw-labs/mxcp](https://github.com/raw-labs/mxcp)** — 69 total [topic:llm-model]
+  Model eXecution + Context Protocol for enterprise-grade data-to-AI infrastructure.
 
 ### 🤖 AI Agents / Workflows
 
-- **[Agent-Reach](https://github.com/Panniantong/Agent-Reach)** ⭐0 (+1,194 today); ⭐42,333 (topic:ai-agent) — Give AI agents read access to Twitter, Reddit, YouTube, GitHub, Bilibili, Xiaohongshu via one CLI with zero API fees; a critical missing piece for agents that need real-world internet context.
-- **[OpenMontage](https://github.com/calesthio/OpenMontage)** ⭐0 (+1,754 today) — World's first open-source agentic video production system with 12 pipelines, 52 tools, and 500+ agent skills; turns coding agents into full video studios.
-- **[ai-berkshire](https://github.com/xbtlin/ai-berkshire)** ⭐0 (+1,274 today) — Multi-agent value investing research framework based on Buffett-Munger-Duan-Yongping-Lu methodologies; shows domain-specific agent ensembles gaining traction.
-- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** ⭐47,845 (topic:ai-agent) — AI productivity studio with smart chat, autonomous agents, and 300+ assistants; unified access to frontier LLMs.
-- **[CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)** ⭐35,547 (topic:ai-agent) — Frontend stack for agents and generative UI (React, Angular, Mobile, Slack); makers of the AG-UI Protocol.
-- **[datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents)** ⭐62,047 (topic:rag) — Chinese-language tutorial "Build Agents from Scratch" — 62k stars indicates massive global agent-education demand.
-- **[langgraph** (implied via dify/langchain references)**]** — Agent orchestration layer powering many of today's trending frameworks.
+- **[OpenMontage](https://github.com/calesthio/OpenMontage)** — ⭐1,754 today, 1,754 total
+  World's first open-source agentic video production system with 12 pipelines, 52 tools, and 500+ agent skills — a groundbreaking multimodal agent application.
+
+- **[ai-berkshire](https://github.com/xbtlin/ai-berkshire)** — ⭐1,274 today, 1,274 total
+  Multi-agent value investing research framework built on Claude Code, combining four master investors' methodologies with adversarial multi-agent analysis.
+
+- **[Agent-Reach](https://github.com/Panniantong/Agent-Reach)** — ⭐1,194 today, 42,793 total
+  CLI tool giving AI agents eyes to read/search Twitter, Reddit, YouTube, GitHub, and Chinese platforms — zero API fees, zero-proxy internet access for agents.
+
+- **[garrytan/gstack](https://github.com/garrytan/gstack)** — ⭐950 today, 950 total
+  Garry Tan's exact Claude Code setup with 23 opinionated tools acting as CEO, Designer, Engineer Manager, and QA — coding agent as whole startup team.
+
+- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** — 203,956 total [topic:ai-agent]
+  The agent that grows with you, one of the highest-starred agent projects signaling mainstream agent adoption.
+
+- **[santifer/career-ops](https://github.com/santifer/career-ops)** — 56,010 total [topic:ai-agent]
+  AI-powered job search system built on Claude Code with 14 skill modes, Go dashboard, and PDF generation.
+
+- **[openclaude](https://github.com/Gitlawb/openclaude)** — 29,441 total [topic:ai-agent]
+  Agent runtime that runs anywhere and uses anything — a universal agent execution environment.
 
 ### 📦 AI Applications
 
-- **[commaai/openpilot](https://github.com/commaai/openpilot)** ⭐0 (+80 today) — Open-source operating system for robotics upgrading driver assistance on 300+ cars; steady, non-trending relevance.
-- **[MinerU](https://github.com/opendatalab/MinerU)** ⭐0 (+960 today) — Transforms complex PDFs/Office docs into LLM-ready markdown/JSON; the go-to pipeline for feeding enterprise documents into agents.
-- **[MediaCrawler](https://github.com/NanmiCoder/MediaCrawler)** ⭐0 (+673 today) — Multi-platform social media crawler (Xiaohongshu, Douyin, Kuaishou, Bilibili, Weibo); data acquisition layer for AI agents.
-- **[santifer/career-ops](https://github.com/santifer/career-ops)** ⭐55,949 (topic:ai-agent) — AI-powered job search system built on Claude Code; 14 skill modes and batch PDF generation.
-- **[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)** ⭐32,352 (topic:ai-agent) — AI generates editable PowerPoint from any document with native shapes, animations, and speaker notes.
+- **[MinerU](https://github.com/opendatalab/MinerU)** — ⭐960 today, 960 total
+  Transforms complex PDFs and Office documents into LLM-ready markdown/JSON for agentic workflows — critical infrastructure for document-to-LLM pipelines.
+
+- **[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** — 84,007 total [topic:rag]
+  Powerful OCR toolkit turning any PDF/image into structured data for AI, supporting 100+ languages.
+
+- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** — 47,860 total [topic:ai-agent]
+  Multi-LLM productivity studio with smart chat and autonomous agents.
+
+- **[ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template)** — ⭐1,088 today, 1,088 total
+  Clone any website with one command using AI coding agents — democratizing web development.
+
+- **[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)** — 32,539 total [topic:ai-agent]
+  AI generates editable PowerPoint from any document with native shapes, animations, and voiced speaker notes.
 
 ### 🧠 LLMs / Training
 
-- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** ⭐203,771 (topic:llm) — "The agent that grows with you"; one of the highest-starred LLM projects, signaling sustained interest in adaptive, long-lived agents.
-- **[ollama/ollama](https://github.com/ollama/ollama)** ⭐174,951 (topic:llm) — The easiest way to run local LLMs (now supports Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, etc.); the default on-ramp for local AI.
-- **[Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** ⭐185,161 (topic:llm) — The original autonomous agent project; still actively referenced as a conceptual foundation.
-- **[0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig)** ⭐7,759 (topic:llm-model) — Build modular, scalable LLM applications in Rust; represents the emerging Rust-in-AI trend.
-- **[open-compass/opencompass](https://github.com/open-compass/opencompass)** ⭐7,124 (topic:llm-model) — LLM evaluation platform supporting 100+ datasets across many model families.
+- **[ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)** — 58,865 total [topic:ml]
+  State-of-the-art YOLO computer vision models — industry standard for real-time object detection.
+
+- **[open-compass/opencompass](https://github.com/open-compass/opencompass)** — 7,124 total [topic:llm-model]
+  Comprehensive LLM evaluation platform supporting 100+ datasets and all major model families.
+
+- **[testtimescaling/testtimescaling.github.io](https://github.com/testtimescaling/testtimescaling.github.io)** — 104 total [topic:llm-model]
+  Survey on test-time scaling in LLMs — hot research direction for inference compute optimization.
+
+- **[galilai-group/stable-pretraining](https://github.com/galilai-group/stable-pretraining)** — 269 total [topic:llm-model]
+  Minimal, scalable library for pretraining foundation and world models.
 
 ### 🔍 RAG / Knowledge
 
-- **[infiniflow/ragflow](https://github.com/infiniflow/ragflow)** ⭐83,696 (topic:rag) — Leading open-source RAG engine fusing RAG with Agent capabilities; a top-tier production RAG stack.
-- **[mem0ai/mem0](https://github.com/mem0ai/mem0)** ⭐59,530 (topic:rag) — Universal memory layer for AI agents; persistent memory is the #1 unsolved problem for agents, making this critical.
-- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** ⭐84,506 (topic:rag) — Captures, compresses, and injects context across sessions for any agent; 84k stars shows massive demand for agent memory.
-- **[StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN)** ⭐12,581 (topic:vector-db) — RAG with 97% storage savings for personal devices; featured at MLsys 2026.
-- **[safishamsi/graphify](https://github.com/safishamsi/graphify)** ⭐72,593 (topic:rag) — Turns any folder (code, docs, images, videos) into a queryable knowledge graph for coding agents.
-- **[headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)** ⭐51,977 (topic:rag) — Compress tool outputs, logs, and RAG chunks by 60-95% before they reach the LLM; token-efficiency is a top concern.
-- **[lancedb/lancedb](https://github.com/lancedb/lancedb)** ⭐10,727 (topic:vector-db) — OSS embedded retrieval library for multimodal AI; developer-friendly and growing fast.
+- **[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** — 84,007 total [topic:rag]
+  Turn any PDF or image into structured data for AI, bridging documents and LLMs.
+
+- **[infiniflow/ragflow](https://github.com/infiniflow/ragflow)** — 83,709 total [topic:rag]
+  Leading open-source RAG engine fusing RAG with agent capabilities for superior LLM context layer.
+
+- **[mem0ai/mem0](https://github.com/mem0ai/mem0)** — 59,551 total [topic:rag]
+  Universal memory layer for AI agents — persistent context across sessions.
+
+- **[PageIndex](https://github.com/VectifyAI/PageIndex)** — 33,457 total [topic:vector-db]
+  Document index for vectorless, reasoning-based RAG — alternative to traditional vector search.
+
+- **[LEANN](https://github.com/StarTrail-org/LEANN)** — 12,584 total [topic:vector-db]
+  [MLsys2026] RAG on everything with 97% storage savings while running fast, accurate, 100% private RAG on device.
+
+- **[lancedb/lancedb](https://github.com/lancedb/lancedb)** — 10,729 total [topic:vector-db]
+  Developer-friendly embedded retrieval library for multimodal AI.
+
+---
 
 ## 3. Trend Signal Analysis
 
-The dominant signal from today's data is **the "Agent-as-a-Team" paradigm**. Projects like `garrytan/gstack` and `google-labs-code/design.md` aren't just agent toolkits—they encode specific human roles (CEO, designer, QA engineer) into agent configurations. This represents a conceptual leap: from "agent that writes code" to "agent system that simulates an entire product team." The explosive growth of `design.md` (+2,407) suggests that **design-to-code workflows are the next frontier** for coding agents.
+**Explosive Growth of Opinionated Agent Setups**: Today's trending list shows a clear pattern: developers are no longer building agents from scratch, but cloning complete "agent persona" configurations. Projects like **gstack** (+950 stars), **garrytan/gstack**, and **design.md** (+2,407 stars) represent an emerging category of **agent configuration as product** — where an individual's or company's exact Claude Code setup becomes a installable template. This mirrors early VS Code extension ecosystems but accelerates rapidly.
 
-A second major signal is **agent-to-Internet connectivity becoming a first-class concern**. `Agent-Reach` (+1,194) and `OpenMontage` (+1,754) both give agents read access to external platforms (social media, YouTube, web). This reflects a fundamental need: agents locked in a terminal are blind; agents that can crawl, read, and analyze the open web unlock new categories of use (market research, competitive analysis, media production).
+**Multimodal Agent Production Goes Open Source**: **OpenMontage** (+1,754 stars) is the first open-source system that positions an AI coding assistant as a full video production studio. This signals a shift from text-based agent workflows to **multimedia production agents** — a category that will likely explode as agents gain more output modalities (video, 3D, audio).
 
-Third, **memory and context compression are exploding in popularity**. `claude-mem` (84,506 stars), `mem0` (59,530), and `headroom` (51,977) all address the same pain point: LLM context windows are finite, but agent sessions are infinite. The community is racing to build solutions—knowledge graphs, compression proxies, persistent memory layers—that let agents operate over hours and days, not minutes.
+**Zero-API-Fee Internet Access for Agents**: **Agent-Reach** (+1,194 stars) and its 42,793 total stars highlight that the community is prioritizing **unrestricted, free web access for agents**. The value proposition "zero API fees" suggests friction with paid API tiers for web scraping is driving open-source alternatives. This connects to the broader trend of **agents as autonomous web citizens** rather than API-bound tools.
 
-Finally, the **Rust-in-AI trend** is small but notable. `qdrant` (Rust vector DB), `rig` (Rust LLM framework), and `meilisearch` (Rust search engine) all appear in the topic results. For performance-critical infrastructure (search, inference, vector databases), Rust is becoming the default choice.
+**Finance-Specific Multi-Agent Systems**: **ai-berkshire** (+1,274 stars) and the topic-search results for **TradingAgents** (89,001 stars) and **daily_stock_analysis** (50,254 stars) demonstrate that **finance is becoming a primary domain for multi-agent systems**. The pattern of "multiple expert personas (Buffett, Munger) + adversarial analysis" is a new architectural pattern worth monitoring.
+
+**Claude Code Ecosystem Dominance**: Of the top 5 trending AI repos today, 4 are explicitly built on or for Claude Code (gstack, design.md, ai-berkshire, Agent-Reach). The remaining one (OpenMontage) is agentic but model-agnostic. This suggests **Claude Code has become the de facto reference platform for agent development**, similar to how React became the reference for frontend frameworks.
+
+---
 
 ## 4. Community Hot Spots
 
-- **🔑 Agent Memory Systems** — `claude-mem` (84.5k⭐), `mem0` (59.5k⭐), and `headroom` (52k⭐) are all addressing the same fundamental bottleneck: agents need persistent, compressed, cross-session memory. This is the most active unsolved problem in the ecosystem.
+- **[OpenMontage — Agentic Video Production](https://github.com/calesthio/OpenMontage)**
+  The first open-source system turning coding agents into video production studios. Developers should watch this for the template of how agents extend beyond text into rich media output.
 
-- **🎨 DESIGN.md & Agent Design Workflows** — `google-labs-code/design.md` (+2,407 today) could become a protocol for communicating visual identity to agents. If widely adopted, it changes how frontend developers interact with coding agents—moving from "describe the UI" to "point to the DESIGN.md."
+- **[design.md — Agent-Design Protocol](https://github.com/google-labs-code/design.md)**
+  Google Labs' specification for persistent design understanding in agents. If adopted widely, this could become the standard interface between UI/UX teams and AI coding agents.
 
-- **🌐 Agent Web Access** — `Agent-Reach` (+1,194 today, 42k total) and `firecrawl` (139k⭐) represent a new category: "web browser for agents." Developers building agents for market research, competitive intelligence, or content aggregation should watch these closely.
+- **[Agent-Reach — Universal Web Access for Agents](https://github.com/Panniantong/Agent-Reach)**
+  Enables agents to read/search major platforms without API fees. Critical infrastructure for any agent needing real-time web data — a foundational tool for agent builders.
 
-- **📹 Agentic Video Production** — `OpenMontage` (+1,754 today) is the first open-source attempt at turning a coding agent into a full video production studio. If this works, it unlocks a massive creator economy use case.
+- **[ai-berkshire — Multi-Agent Finance Framework](https://github.com/xbtlin/ai-berkshire)**
+  Demonstrates the "expert panel" multi-agent pattern with adversarial analysis. Finance domain is becoming the proving ground for sophisticated multi-agent architectures.
 
-- **🏢 Enterprise Agent Infra** — `aws/agent-toolkit-for-aws` (+243 today) and `langchain4j` (12.4k⭐, Java) signal that enterprise adoption is accelerating. Java-based LangChain and AWS-first MCP toolkits are the on-ramps for corporate developers.
+- **[gstack — Opinionated Agent Setup](https://github.com/garrytan/gstack)**
+  Garry Tan's personal Claude Code configuration as a template. Represents a new software category: "agent as team" — where one setup embodies multiple professional roles.
 
 ---
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+*This digest is auto-generated by [agents-radar](https://github.com/Lux0206/agents-radar).*
