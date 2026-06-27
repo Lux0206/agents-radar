@@ -325,16 +325,16 @@ async function main(): Promise<void> {
   // 3. Generate cross-repo comparisons (zh only)
   console.log("  Calling LLM for comparative analyses (ZH)...");
 
-  const makeOpenclawDigest = (lang: Lang): RepoDigest => ({
+  const openclawDigest: RepoDigest = {
     config: OPENCLAW,
     issues: fetchedOpenclaw.issues,
     prs: fetchedOpenclaw.prs,
     releases: fetchedOpenclaw.releases,
     summary: zhSummaries.openclawSummary,
-  });
+  };
 
   const zhComparison = await callLlm(buildComparisonPrompt(zhSummaries.cliDigests, dateStr, "zh"));
-  const zhPeersComparison = await callLlm(buildPeersComparisonPrompt(makeOpenclawDigest("zh"), zhSummaries.peerDigests, dateStr, "zh"));
+  const zhPeersComparison = await callLlm(buildPeersComparisonPrompt(openclawDigest, zhSummaries.peerDigests, dateStr, "zh"));
 
   // 4. Build + save reports (zh only)
   const lang: Lang = "zh";
