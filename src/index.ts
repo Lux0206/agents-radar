@@ -320,7 +320,15 @@ async function main(): Promise<void> {
 
   // 2. Generate per-repo LLM summaries (zh only)
   console.log("  Generating summaries in ZH...");
-  const zhSummaries = await generateSummaries(fetchedCli, fetchedOpenclaw, skillsData, fetchedPeers, trendingData, dateStr, "zh");
+  const zhSummaries = await generateSummaries(
+    fetchedCli,
+    fetchedOpenclaw,
+    skillsData,
+    fetchedPeers,
+    trendingData,
+    dateStr,
+    "zh",
+  );
 
   // 3. Generate cross-repo comparisons (zh only)
   console.log("  Calling LLM for comparative analyses (ZH)...");
@@ -334,7 +342,9 @@ async function main(): Promise<void> {
   };
 
   const zhComparison = await callLlm(buildComparisonPrompt(zhSummaries.cliDigests, dateStr, "zh"));
-  const zhPeersComparison = await callLlm(buildPeersComparisonPrompt(openclawDigest, zhSummaries.peerDigests, dateStr, "zh"));
+  const zhPeersComparison = await callLlm(
+    buildPeersComparisonPrompt(openclawDigest, zhSummaries.peerDigests, dateStr, "zh"),
+  );
 
   // 4. Build + save reports (zh only)
   const lang: Lang = "zh";
