@@ -1,60 +1,60 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 性能退化与安全幻觉引发愤怒和担忧",
-      "OpenAI Codex 成本暴涨与容量不足导致社区恐慌",
-      "Gemini CLI Agent 行为不可靠引发困扰",
-      "Kimi Code CLI 死循环 Bug 引发焦虑",
-      "Pi 连接稳定性与 API 兼容性问题突出",
-      "DeepSeek TUI 发布阻塞 Bug 亟待解决"
+      "Claude Code 用户痛批稳定性与协作问题",
+      "OpenAI Codex 遭遇模型容量危机",
+      "Gemini CLI 修复 Agent 挂起与伪装成功",
+      "Copilot CLI 聚焦企业级配置管理",
+      "OpenCode 激进重构 V2 架构解性能瓶颈",
+      "Pi 社区热议连接稳定性与模型定价"
     ],
     "ai-agents": [
-      "OpenClaw v2026.6.11-beta.2 发布：更强渠道控制",
-      "SQLite 迁移进入关键阶段，会话存储架构升级",
-      "Telegram 和 Mattermost 渠道修复成为新焦点",
-      "修复子代理因会话锁超时丢失回复的关键 PR",
-      "sudo openclaw 安全与合规功能取得进展",
-      "MCP 工具渠道化审批功能迈向审批信封阶段"
+      "OpenClaw 发布 v2026.6.11-beta.2 增强渠道控制",
+      "SQLite 数据库迁移进入最后整合阶段",
+      "社区 110 条评论热议跨平台 Clawdbot 应用",
+      "448 条 PR 待合并显示冲刺压力",
+      "会话写入锁定与子代理延迟成最大 Bug",
+      "文件系统探索工具将接入 Codex 运行时"
     ],
     "ai-trending": [
-      "Agency-Agents 新项目爆火，概念超前引关注",
-      "ai-berkshire 基于 Claude Code 的价值投资框架",
-      "FluidVoice 轻量级本地 AI 应用受热捧",
-      "LEANN 极致技术创新获社区高度认可",
-      "nanobot 44.9k Stars，聚焦工具调用与自动化",
-      "vllm 84.8k Stars，生产级推理部署事实标准"
+      "vllm 以 84.8k 星领跑 LLM 推理引擎",
+      "LangChain 140k 星蝉联 Agent 工程平台榜首",
+      "CopilotKit 35.6k 星成为前端 Agent 栈新宠",
+      "原子化 Agent 库 atomic-agents 获 6k 星",
+      "Rust 构建 LLM 的 rig 项目达 7.8k 星",
+      "Headroom 可压缩 60% Token 消耗"
     ],
     "ai-web": [
-      "OpenAI 与惠普合作，加速 AI 嵌入企业硬件",
-      "Anthropic 无新内容发布，进入研发静默期",
-      "头部竞争从能力竞赛转向生态落地竞赛",
-      "硬件+AI 模式复现，重塑企业现代工作流",
-      "信息透明度差异显著，两家公司战略节奏不同",
-      "OpenAI 生态扩展与变现优先级明显提升"
+      "OpenAI 宣布与惠普建立前沿合作伙伴关系",
+      "Anthropic 今日官网无新增内容",
+      "OpenAI 从能力竞赛转向生态落地竞赛",
+      "硬件+AI 模式在惠普合作中复现",
+      "双方沟通策略差异显著",
+      "OpenAI 通过少量高战略价值公告释放信号"
     ],
     "ai-hn": [
       "GLM 5.2 在网络安全基准测试中击败 Claude",
-      "个人用 Claude Code 分析 MRI 引争议",
-      "奥地利游说欧盟接纳 Anthropic 成焦点",
-      "美国限制 AI 对华出口讨论激烈",
-      "LLM 镜像测试引自我意识哲学思辨",
-      "76% 墙：LLM 无法独立理解复杂专业文档"
+      "社区热议中国 AI 重塑竞赛格局",
+      "前沿 LLM 处理复杂文档失败率达 76%",
+      "NanoEuler 用纯 C/CUDA 实现 GPT-2 模型获赞",
+      "用户展示设备上运行全视觉模型",
+      "AI 医疗案例用 Claude 分析 MRI 引关注"
     ],
     "ai-hf": [
-      "zai-org/GLM-5.2 获本周最高点赞数 2882",
-      "HauhauCS 无审查版 Qwen 下载量超 300 万",
-      "DeepSeek V4 Pro 与 Flash 双版本齐发",
-      "微软 FastContext 4B 长上下文模型发布",
-      "WeiboAI VibeThinker 3B 小模型数学推理亮眼",
-      "Krea 2 图像生成模型冲击榜单"
+      "GLM 5.2 以 2.9k 点赞登顶 MoE 对话模型",
+      "DeepSeek V4 Pro DSpark 正式发布",
+      "Qwen 3.6 非审查版下载量破 300 万",
+      "百度 Unlimited-OCR 下载量超 36 万",
+      "397B 参数的 Ornith 旗舰模型亮相",
+      "nvidia 强势入局推动硬件协同 AI 应用"
     ],
     "ai-community": [
-      "开发者热议管理层强制使用 AI 摧毁编程乐趣",
-      "MCP 服务器被指在输入前消耗 5 万+ Token",
-      "社区开始讨论 AI 寒冬的可能性",
-      "构建本地 AI 助手的安全实践成为焦点",
-      "提示注入攻击与 RAG 基准测试陷阱受关注",
-      "LLM API 调用底层原理硬核剖析获好评"
+      "本地 AI 代码审查工具可防数据泄露",
+      "硬编码 API Key 在 Agent 中风险巨大",
+      "MCP 服务初始令牌消耗超 50k",
+      "强制使用 AI 的管理方式摧毁开发者乐趣",
+      "多轮对话上下文过时引发幻觉问题",
+      "纯本地 Mac 助手开发实践引共鸣"
     ]
   }
 }
