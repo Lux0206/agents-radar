@@ -1,0 +1,60 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 性能退化与安全幻觉引发愤怒和担忧",
+      "OpenAI Codex 成本暴涨与容量不足导致社区恐慌",
+      "Gemini CLI Agent 行为不可靠引发困扰",
+      "Kimi Code CLI 死循环 Bug 引发焦虑",
+      "Pi 连接稳定性与 API 兼容性问题突出",
+      "DeepSeek TUI 发布阻塞 Bug 亟待解决"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.11-beta.2 发布：更强渠道控制",
+      "SQLite 迁移进入关键阶段，会话存储架构升级",
+      "Telegram 和 Mattermost 渠道修复成为新焦点",
+      "修复子代理因会话锁超时丢失回复的关键 PR",
+      "sudo openclaw 安全与合规功能取得进展",
+      "MCP 工具渠道化审批功能迈向审批信封阶段"
+    ],
+    "ai-trending": [
+      "Agency-Agents 新项目爆火，概念超前引关注",
+      "ai-berkshire 基于 Claude Code 的价值投资框架",
+      "FluidVoice 轻量级本地 AI 应用受热捧",
+      "LEANN 极致技术创新获社区高度认可",
+      "nanobot 44.9k Stars，聚焦工具调用与自动化",
+      "vllm 84.8k Stars，生产级推理部署事实标准"
+    ],
+    "ai-web": [
+      "OpenAI 与惠普合作，加速 AI 嵌入企业硬件",
+      "Anthropic 无新内容发布，进入研发静默期",
+      "头部竞争从能力竞赛转向生态落地竞赛",
+      "硬件+AI 模式复现，重塑企业现代工作流",
+      "信息透明度差异显著，两家公司战略节奏不同",
+      "OpenAI 生态扩展与变现优先级明显提升"
+    ],
+    "ai-hn": [
+      "GLM 5.2 在网络安全基准测试中击败 Claude",
+      "个人用 Claude Code 分析 MRI 引争议",
+      "奥地利游说欧盟接纳 Anthropic 成焦点",
+      "美国限制 AI 对华出口讨论激烈",
+      "LLM 镜像测试引自我意识哲学思辨",
+      "76% 墙：LLM 无法独立理解复杂专业文档"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.2 获本周最高点赞数 2882",
+      "HauhauCS 无审查版 Qwen 下载量超 300 万",
+      "DeepSeek V4 Pro 与 Flash 双版本齐发",
+      "微软 FastContext 4B 长上下文模型发布",
+      "WeiboAI VibeThinker 3B 小模型数学推理亮眼",
+      "Krea 2 图像生成模型冲击榜单"
+    ],
+    "ai-community": [
+      "开发者热议管理层强制使用 AI 摧毁编程乐趣",
+      "MCP 服务器被指在输入前消耗 5 万+ Token",
+      "社区开始讨论 AI 寒冬的可能性",
+      "构建本地 AI 助手的安全实践成为焦点",
+      "提示注入攻击与 RAG 基准测试陷阱受关注",
+      "LLM API 调用底层原理硬核剖析获好评"
+    ]
+  }
+}
