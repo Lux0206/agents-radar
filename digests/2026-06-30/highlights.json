@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.196 爆发“思考块”API错误",
+      "OpenAI Codex 容量配额异常，GPT-5.5推理聚类",
+      "Gemini CLI v0.51.0 子代理状态误报修复",
+      "OpenCode 遭订阅欺诈指控，用户信任危机",
+      "DeepSeek TUI 高并发冻结与Token消耗异常",
+      "Qwen Code v0.19.3 修复API流式超时与内存溢出"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时积压352条Issue，500条PR",
+      "Ollama扩展流读取器资源泄漏被修复",
+      "Windows平台PATHEXT继承问题已解决",
+      "Minimax和OpenRouter音乐生成增加容错",
+      "Telegram和Feishu渠道修复已合并",
+      "项目零新版本发布，处于攻坚期"
+    ],
+    "ai-trending": [
+      "google/agents-cli 上线，将编码助手变Agent专家",
+      "OmniRoute 免费AI网关连接160+模型提供商",
+      "msitarzewski/agency-agents 今日新增之星1425星",
+      "NousResearch/hermes-agent 超20万星，Agent框架",
+      "xbtlin/ai-berkshire 多Agent对抗价值投资研究",
+      "browser-use/video-use 让编码Agent操作视频"
+    ],
+    "ai-web": [
+      "Anthropic更新前沿红队页面，展示半年成果",
+      "Claude发现并利用真实CVE漏洞案例公开",
+      "Project Fetch 展示Claude操纵机器人任务",
+      "系统性评估LLM发现零日漏洞风险与缓解",
+      "量化LLM开发漏洞利用代码能力，指标化",
+      "OpenAI 今日无新增内容更新"
+    ],
+    "ai-hn": [
+      "最高分：Copy-paste错误进Claude Code不可取",
+      "Open Memory Protocol 统一管理多AI记忆",
+      "Anthropic与加州政府半价协议引发隐私讨论",
+      "离线AI聊天与图像生成工具获社区关注",
+      "探讨LLM拟人化风险：Midjourney无人认为有意识",
+      "AI编码助手最佳实践与效率问题成焦点"
+    ],
+    "ai-arxiv": [
+      "保守训练反加剧奖励黑客，挑战传统认知",
+      "35B参数Agents-A1达万亿级性能，缩放行动范围",
+      "WorldEvolver让LLM智能体自我进化世界模型",
+      "工具增强智能体隐蔽失败：实体绑定错误",
+      "稀疏自编码器特征分裂问题被跨样本正则化解决",
+      "对话系统存在吸引子状态，影响模型行为"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4 Pro与Flash DSpark变体发布",
+      "WeiboAI/VibeThinker-3B 3B参数专攻数学推理",
+      "baidu/Unlimited-OCR 下载量突破42.9万",
+      "nvidia/LocateAnything-3B 图像定位获800K下载",
+      "Qwen-AgentWorld面向Agent的模型发布",
+      "nvidia/GLM-5.2-NVFP4企业级精度优化模型"
+    ],
+    "ai-community": [
+      "模型不需要记忆，上下文才是关键引热议",
+      "46个仓库语义搜索实战，解决AI入口问题",
+      "MCP服务器构建教程成Dev.to热点",
+      "AGENTS.md文件让AI编码代理真正有用",
+      "AI泡沫论与商品化信心讨论分歧明显",
+      "代码即文档激进观点：删掉Confluence"
+    ]
+  }
+}
