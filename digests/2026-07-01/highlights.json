@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.197默认升级Sonnet 5",
+      "Claude Code递归代理Bug导致巨量费用引警觉",
+      "Gemini CLI聚焦OAuth/SSRF沙箱安全修复",
+      "OpenCode v1.17.12的Question UI体验成热点",
+      "Pi v0.80.3支持Sonnet 5并重构核心库",
+      "Qwen Code v0.19.3日版聚焦Git忽略规则争议"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.11发布但引入回归Bug",
+      "OpenClaw工具调用在首次后返回空结果",
+      "核心稳定性问题如会话丢失仍在讨论",
+      "iOS应用适配iOS 26 Liquid Glass",
+      "PR修复本地流式Provider无限挂起问题",
+      "角色标记泄露修复防止AI模型混淆"
+    ],
+    "ai-trending": [
+      "agency-agents单日涨1791星：内置多专业Agent角色",
+      "video-use利用编码Agent自动化视频编辑",
+      "OmniRoute AI网关对接231+服务商",
+      "TencentCloud CubeSandbox开源AI沙箱",
+      "strix开源AI渗透测试工具受关注",
+      "HKUDS Vibe-Trading个人交易Agent"
+    ],
+    "ai-web": [
+      "Claude Fable 5和Mythos 5恢复全球部署",
+      "Fable 5首周提供50%免费配额",
+      "Claude Sonnet 5发布：最具Agent能力的Sonnet",
+      "Claude Science专为科学家设计的工作台",
+      "OpenAI今日仅有三个有限元数据更新",
+      "Anthropic以旗舰回归+新产品矩阵反击"
+    ],
+    "ai-hn": [
+      "Claude Sonnet 5发布引爆社区1157分讨论",
+      "Fable 5与Mythos 5出口管制解除共振",
+      "Anthropic protoof解码器现严重DoS漏洞",
+      "Godot引擎不再接受AI生成代码贡献",
+      "Sonnet 5与GPT-5和Fable 5定位对比热议",
+      "美国AI地缘政治政策转向引发讨论"
+    ],
+    "ai-arxiv": [
+      "元认知反馈RL提升LLM不确定性表达",
+      "生成式技能组合框架让Agent动态组技能",
+      "TRIAGE信用分配改Agent长程任务学习",
+      "LLM读表时粗心错误引用数值被量化",
+      "代理保真度：开源模型解释闭源可能性",
+      "反事实解释训练提升模型归因忠实度"
+    ],
+    "ai-hf": [
+      "GLM-5.2登顶：MoE架构获3108赞",
+      "empero-ai/Qwythos-9B微调模型引关注",
+      "Ornith-1.0-35B覆盖9B到397B部署需求",
+      "DeepSeek-V4-Pro-DSpark论文附arxiv",
+      "LiquidAI LFM2.5-230M适合边缘计算",
+      "Unlimited-OCR展现OCR任务刚需"
+    ],
+    "ai-community": [
+      "AI Agent工程化转向循环设计",
+      "Log是Agent本质，提供可观测新架构",
+      "管理AI Agent像管初级员工有显著差异",
+      "机器人600行PR无人愿意审查引共鸣",
+      "MCP vs A2A协议对比成为热点",
+      "本地开源AI被指为未来趋势"
+    ]
+  }
+}
