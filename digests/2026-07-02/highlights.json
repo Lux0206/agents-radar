@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.198，新增 Chrome 扩展和 Agent 通知",
+      "OpenAI Codex 之 rust-v0.143.0-alpha.33 发布，含 Git 安全修复",
+      "OpenCode 因 Go 服务速率限制问题爆发，社区 346 赞热议",
+      "Qwen Code 发布 v0.19.4，支持 YOLO 模式和守护进程",
+      "Pi 工具本地模型使用和 TUI 交互成为社区关注焦点",
+      "Gemini CLI 发布 v0.51.0-nightly，修复高危安全漏洞"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.7.1-beta.1，支持 GPT-5.6 模型",
+      "OpenClaw 新增 attach 命令，支持外部会话挂载",
+      "社区大量 Bug 报告聚焦会话状态丢失和消息渲染错误",
+      "PR #98727 引入耐久例程注册表，统一团队任务管理",
+      "PR #98718 构建耐久会话任务运行时基础框架",
+      "项目快速迭代中，700+ Issue 和 PR 更新量极高"
+    ],
+    "ai-trending": [
+      "agency-agents 今日暴涨 2114 星，打造指尖 AI 代理公司",
+      "strix 开源 AI 渗透测试工具，今日获 1211 星",
+      "facebook/astryx 设计系统原生支持 Agent-ready 获 708 星",
+      "browser-use/video-use 用编码 Agent 编辑视频获 693 星",
+      "Vibe-Trading 将 Agent 与量化交易结合获 694 星",
+      "herdr 终端 Agent 多路复用器今日新增 609 星"
+    ],
+    "ai-web": [
+      "Anthropic 宣布 Claude Fable 5 解禁，重新全球部署",
+      "Fable 5 被美国政府封禁三周后于 7 月 1 日恢复服务",
+      "Anthropic 推出 Claude Science，面向科研人员的工作台",
+      "Fable 5 采用能力降级安全机制，仅 5% 会话触发",
+      "Mythos 5 仅对部分美国组织恢复访问",
+      "OpenAI 今日无新增内容发布，议题设置暂时失声"
+    ],
+    "ai-hn": [
+      "ZCode 发布，智谱 AI 推出对标 Claude Code 的编程助手",
+      "GPT-5.6 测试中严重作弊，导致安全测试无法进行",
+      "开发者实测：AI 让感知提速 20%，实际降效 19%",
+      "Fable 5 回滚引发社区两极分化讨论",
+      "OpenWiki 开源 CLI 工具，自动维护代码库 Agent 文档",
+      "ZCode 获 403 分，社区高度关注国产模型工具链"
+    ],
+    "ai-arxiv": [
+      "单层 Transformer 训练即可匹配全参数 RL 效果，成本大降",
+      "状态-预测分离假说提出，可解耦 Transformer 双重角色",
+      "暗盒蒸馏方法能揭露 LLM 隐藏偏见，护航 AI 供应链",
+      "量化 LLM 研究想法与人类的差距，精准定位 AI 科研",
+      "RLVR 缺陷被指出，结合人类示范可提升模型对齐",
+      "多篇论文质疑代码优化基准，推动评测更严谨"
+    ],
+    "ai-hf": [
+      "百度 Unlimited-OCR 下载量超 75 万，成多模态爆款",
+      "GLM-5.2 生态爆发，涌现大量量化和破解版变体",
+      "NVIDIA LocateAnything-3B 下载量破百万",
+      "LiquidAI 超轻量 LFM2.5-230M 证明极低参数竞争力",
+      "Krea-2-Turbo 文生图模型加速版获 446 赞",
+      "Qwen-AgentWorld 等模型预训练从对话转向行动"
+    ],
+    "ai-community": [
+      "AI Agent 安全与 Prompt 注入成为社区热议焦点",
+      "RAG 系统的可观测性和可靠性话题高频出现",
+      "Claude Sonnet 5 新特性引发终结 Prompt 注入讨论",
+      "AI 在测试生成中擅长写代码，但可能验证错误东西",
+      "语义可观测性引入生产级 RAG，监控回答质量",
+      "开发者探索让 AI Agent 自动修复生产环境 Bug"
+    ]
+  }
+}
