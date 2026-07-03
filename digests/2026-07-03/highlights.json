@@ -1,0 +1,44 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.199 发布，修复 SSL 错误",
+      "OpenAI Codex 更新 rust-v0.143.0-alpha，优化凭证路由",
+      "Gemini CLI 发布 v0.51.0-nightly，侧重 Bug 修复",
+      "Qwen Code 发布 v0.19.5 稳定版，修复上下文窗口 Bug",
+      "Pi 发布 cua-driver-rs v0.7.0，聚焦稳定性",
+      "OpenCode 聚焦 v2 架构构建，受 macOS 主题失效困扰"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区日活跃度极高，Issues 与 PR 超 700",
+      "v2026.6.11 版本引发工具输出为空等严重回归 Bug",
+      "修复 iOS 联系人应用崩溃问题（PR #99475）",
+      "修复 sessions_spawn 权限回归问题（Issue #98614）",
+      "处理 Codex 超时与回复丢失（PR #99217）",
+      "81 个 PR 被合并，还有 419 个待处理"
+    ],
+    "ai-trending": [
+      "usestrix/strix 单日暴增 2137 star，AI 渗透测试利器",
+      "msitarzewski/agency-agents 单日+3032 star，多智能体机构",
+      "AutoGPT 以 185k star 稳居 Agent 领域领导者地位",
+      "vllm 高性能推理引擎持续受关注",
+      "ollama 以 175k star 成为本地部署首选",
+      "browser-use 团队再推 video-use，AI 编辑视频"
+    ],
+    "ai-web": [
+      "Anthropic 重发 2023 年负责任的扩展政策原始公告",
+      "Claude Fable 5 重新全球上线，配套详细安全措施",
+      "发布全新的越狱严重性评估框架草案",
+      "Claude Sonnet 5 主推自主 agent 能力普惠化",
+      "OpenAI 今日无增量更新，Anthropic 主导动态",
+      "Anthropic 试图将自身安全标准外化为行业规则"
+    ],
+    "ai-hn": [
+      "AI 编程体验不满情绪达小高潮，多帖集中抱怨",
+      "Anthropic 与 OpenAI 陷间谍软件和政府入股争议",
+      "阿里禁用 Claude Code 引发中国 AI 安全讨论",
+      "Launch HN: Manufact (YC S25) MCP Cloud 获热议",
+      "Claude-real-video 开源项目被质疑名不副实",
+      "LMDB 1.0 发布，开发者称对复杂 AI 基础设施疲劳"
+    ]
+  }
+}
