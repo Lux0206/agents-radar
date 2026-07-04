@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 会话限制与数据安全成最大痛点",
+      "OpenAI Codex 新架构兼容性与 Git 操作安全是重点",
+      "Gemini CLI 子代理稳定性和 MCP 生态完善是焦点",
+      "GitHub Copilot CLI MCP 插件体验和 BYOK 兼容性差",
+      "OpenCode V2 运行时迎来重大重构与 bug 修复",
+      "Qwen Code 发布 3 个新版本，聚焦配置健壮性"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区活跃，但 422 个 PR 待合并",
+      "P1 级别严重 Bug (#25592) 威胁消息路由安全",
+      "XL 级 PR 试图阻止受保护根目录 shell 搜索",
+      "会话存储拟迁移至 SQLite，解决性能问题",
+      "新增 Anthropic 和 OpenAI 内容过滤故障转移支持",
+      "修复 `openclaw models list` 上下文窗口显示错误"
+    ],
+    "ai-trending": [
+      "Strix 开源 AI 渗透测试工具今日登顶 Trend 榜首",
+      "caveman 通过语言简化节省 65% Token 引爆社区",
+      "openai/codex-plugin-cc 单日新增 634 星",
+      "Agent 记忆层项目 claude-mem 和 minds 受追捧",
+      "vllm-project 持续增长，成模型部署事实标准",
+      "firecrawl 获 14.3 万星，成 LLM 数据基础设施"
+    ],
+    "ai-web": [
+      "Anthropic 首次系统披露“可见扩展思考”内部原理",
+      "Claude 3.7 Sonnet 推理过程可透明化呈现",
+      "开发者可设置“思考预算”平衡成本与推理深度",
+      "透明化设计旨在增强信任、提升对齐、改善输出",
+      "Anthropic 转向深度阐释设计哲学与技术壁垒",
+      "OpenAI 今日无任何公开动态，进入战略静默期"
+    ],
+    "ai-hn": [
+      "GLM5.2 在 AMD 上跑出 Blackwell 两倍性价比",
+      "Mistral 发布数学模型 Leanstral 1.5 引热议",
+      "Claude Mythos 发布前后安全漏洞出现尖峰",
+      "GPT 5.5 中档推理成本低于 Claude Fable 高档",
+      "社区讨论转向对 AI 成本与实用性的审慎评估",
+      "Anthropic 药物研发计划引发安全争议"
+    ],
+    "ai-arxiv": [
+      "LACUNA 提出 LLM 遗忘技术精准度评估基准",
+      "在线安全监控器可低成本警报 LLM 不安全输出",
+      "增加推理计算量比提供工具更能提升代码生成成功率",
+      "DRIFTLENS 揭示个性化记忆导致 LLM 推理漂移",
+      "神经元感知数据选择提升 LLM 自蒸馏效率",
+      "分布式攻击研究揭示持久化 AI 编码智能体新漏洞"
+    ],
+    "ai-hf": [
+      "NVIDIA LocateAnything-3B 成本周下载王",
+      "百度 Unlimited-OCR 下载量达 88.5 万",
+      "DeepSeek V4 Pro DSpark 发布旗舰版模型",
+      "Qwen 3.6 和 GLM-5.2 成为量化微调热点",
+      "HauhauCS 无审查模型获得异常高下载量",
+      "InternScience Agents-A1 专为智能体应用设计"
+    ],
+    "ai-community": [
+      "首个开源工具可捕获隐蔽的 Agent 数据泄露攻击",
+      "Firecracker 沙箱方案应对不可信 AI 生成代码",
+      "提出“写链污染”概念并给出检测脚本",
+      "为 AI Agent 记忆层构建“信任防火墙”实践",
+      "批判“上下文窗口即记忆”，展望持久化系统",
+      "对抗性测试指南：在生产前主动破坏模型"
+    ]
+  }
+}
