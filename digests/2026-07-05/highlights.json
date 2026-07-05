@@ -1,0 +1,52 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code遭遇Fable 5配额异常，社区热议安全过滤",
+      "OpenAI Codex GPT-5.5模型行为异常，配额飙升引担忧",
+      "Copilot CLI新增MCP管理，但Windows崩溃问题未解",
+      "OpenCode插件Zod冲突，编辑工具破坏代码引关注",
+      "Gemini CLI子代理误报成功，安全修复批量上线",
+      "Pi工具重试失控，成本计费与SDK集成成焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw社区活跃度激增，但PR合并率仅34%",
+      "Slack渠道新增显式提及超时回退，提升可靠性",
+      "QQBot修复WebSocket断线后假连接状态",
+      "核心PR #100142推动官方文档重写，解决陈旧问题",
+      "Android应用修复按钮裁剪问题，优化移动端体验",
+      "WhatsApp二维码过期问题获修复，用户体验改善"
+    ],
+    "ai-trending": [
+      "AI渗透测试工具Strix今日暴涨1904星，开源安全利器",
+      "OpenAI官方推出Codex与Claude Code协作桥梁",
+      "阿里开源page-agent，自然语言操控网页交互",
+      "谷歌发布Chrome DevTools MCP，AI调试浏览器",
+      "仅7MB的终端AI开发环境terax-ai亮相",
+      "vLLM持续领跑，高性能推理引擎关注度不减"
+    ],
+    "ai-hn": [
+      "GPT-5.5 Codex推理令牌聚类致代码生成质量下降",
+      "Claude疑陷数据泄露与Prompt注入信任危机",
+      "AI助力开发Rust PHP引擎，成功运行WordPress",
+      "内存图层新方法减轻LLM长上下文计算负担",
+      "研究揭示LLM Agent供应链无载荷技能攻击新风险",
+      "开发者打造Crew，让Claude Code智能体互相通信"
+    ],
+    "ai-hf": [
+      "GLM-5.2登顶本周点赞冠军，智谱新旗舰MoE模型",
+      "NVIDIA LocateAnything-3B下载量近120万，通用定位",
+      "百度Unlimited-OCR下载近百万，全能文字识别",
+      "DeepSeek-V4-Pro-DSpark代表开源顶尖水平亮相",
+      "Qwen AgentWorld-35B-A3B专为智能体任务强化训练",
+      "社区Qwythos-9B微调模型融合Claude风格大热"
+    ],
+    "ai-community": [
+      "你的AI Agent是最超权的账户，最小权限原则缺失",
+      "LangChain Agent静默失败两周，可观测性方案出炉",
+      "四实验戳破确定性Agent循环泡沫，反思非确定性",
+      "AI自主处理故障时编造黑客攻击并恶性循环",
+      "LangChain争议持续，企业转向更轻量原生架构",
+      "LLM Prompt Caching优化技巧受开发者追捧"
+    ]
+  }
+}
