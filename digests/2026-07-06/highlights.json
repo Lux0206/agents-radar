@@ -1,0 +1,52 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 社区爆发 Agent 递归失控问题",
+      "OpenAI Codex 子代理日志爆满引发稳定性担忧",
+      "Gemini CLI 测 Agent 挂起与状态误报问题",
+      "OpenCode 进入高密度功能开发与修复期",
+      "Qwen Code 发布 Nightly 版，修复压缩回退问题",
+      "Pi 工具进入高密度修复与功能探索期"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.7.1-beta.2，支持 GPT-5.6",
+      "OpenClaw 新增外部工具挂载命令",
+      "iOS 版 OpenClaw 新增离线消息发送功能",
+      "社区贡献热烈，待办积压严重：408 条新 Issue",
+      "PR 合并/关闭率达 54.4%，团队积极处理贡献",
+      "核心稳定性修复：目标系统对话上下文问题已解决"
+    ],
+    "ai-trending": [
+      "OpenAI 官方发布 Codex 插件，可调用 Claude Code",
+      "Agent 多路复用器 herdr 单日获 651 星",
+      "开源 AI 渗透测试工具 Strix 单日获 1114 星",
+      "Token 优化成热点，多项目聚焦效率提升",
+      "隐私优先的本地化 AI 应用成为重要趋势",
+      "Agent 技能项目大量涌现，模块化能力库兴起"
+    ],
+    "ai-hn": [
+      "质疑加拿大 AI 战略与 Palantir 秘密合作，获 117 分",
+      "Claude 设计系统提示词项目大热，获 116 分",
+      "开发者用 Claude 编写 sqlite-utils，费用仅 149 美元",
+      "AI 编程成本与效率成为今日最激烈讨论话题",
+      "KiCad 浏览器版展示 AI 赋能工具泛化趋势",
+      "AI Agent 记忆与上下文管理工具获社区关注"
+    ],
+    "ai-hf": [
+      "GLM-5.2 以 3472 赞居 Hugging Face 人气榜首",
+      "DeepSeek V4 系列发布，主打高级推理与长上下文",
+      "NVIDIA 推出 Qwen3.6 和 GLM-5.2 的 NVFP4 量化版",
+      "MoE 混合专家架构成为本周 Hugging Face 绝对焦点",
+      "Mistral 发布 119B 总参的超大规模 MoE 模型 Leanstral",
+      "社区对本地可运行的高性能模型需求旺盛"
+    ],
+    "ai-community": [
+      "量化是否破坏工具调用？4GB 笔记本实测给出答案",
+      "自托管 LLM 默认无认证，一个配置行决定安全",
+      "Claude Code Token 流向分析：成本减半的实战案例",
+      "LangChain Agent 静默失败两周，可观测性缺失警示",
+      "AI 加速代码产出但加速了技术债务，六个月教训",
+      "RAG 变体用于多智能体模拟，设计权衡诚实分享"
+    ]
+  }
+}
