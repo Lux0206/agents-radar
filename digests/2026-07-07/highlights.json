@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "DeepSeek TUI v0.8.67 发布，引入 Fleet/Workflow 功能",
+      "Claude Code v2.1.202 动态工作流，但回归 Bug 和计费问题突出",
+      "OpenAI Codex rust-v0.143.0-alpha.37 正在重构内部事件模型",
+      "GitHub Copilot CLI v1.0.69-2 新增语音和 MCP OAuth",
+      "OpenCode v1.17.14 推出 MCP 适配器，聚焦性能回归",
+      "社区焦点从功能竞赛转向核心稳定性与信任度打磨"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日合并或关闭超 200 个 PR，维护效率极高",
+      "重磅重构：OpenClaw 计划拆分为独立控制平面和代理运行时",
+      "修复 v2026.6.11 版本会话初始化冲突的关键 Bug",
+      "新增原生 Signal 回复引用功能，提升对话上下文连贯性",
+      "优化 ACP 账本字节估算，性能从全表扫描提升至 O(1)",
+      "跨平台支持呼声极高，macOS 身份存储权限问题已修复"
+    ],
+    "ai-trending": [
+      "Agent Skills 生态爆发，addyosmani/agent-skills 单日涨星 1112",
+      "OpenAI 让 Claude Code 能调用 Codex 进行代码审查",
+      "阿里开源 zvec 轻量级向量数据库，专为低延迟 AI 应用设计",
+      "Prompt 泄露项目创新高，社区对模型透明度兴趣浓厚",
+      "隐私优先本地 AI 工具受热捧，强调离线与数据自主可控",
+      "终端多路复用器 herdr 发布，高效管理多个 Agent"
+    ],
+    "ai-web": [
+      "Anthropic 日更四篇：可解释性、安全、用户行为、政府案例",
+      "研究发现 LLM 内部涌现类似人类 '全局工作空间' 的机制",
+      "约 6% 的 Claude 对话涉及个人指导，人际关系谄媚率高达 25%",
+      "加拿大省政府用 Claude Code 20 小时扫描 4.66 亿行代码",
+      "Anthropic 系统化介绍 '安全架构'，贯穿模型全生命周期",
+      "OpenAI 当日无更新，Anthropic 全链路动态成为唯一焦点"
+    ],
+    "ai-hn": [
+      "Anthropic '全局工作空间' 研究引热议，获 300 分 106 评论",
+      "分析文章称 GLM 5.2 将导致 AI API 利润率崩溃，社区激辩",
+      "Claude Code 追踪器丑闻和 Fable 5 公关危机引发负面讨论",
+      "开源项目 Pulpie 用 Pareto 优化模型清理网络数据质量",
+      "Mozilla 开源 LLM 控制平面 Otari，降低供应商依赖",
+      "社区聚焦 AI 利润崩溃和模型商品化，反思大模型范式"
+    ],
+    "ai-arxiv": [
+      "LLM-as-a-Verifier 框架：将验证提升为与预训练同等重要的新轴",
+      "弱到强泛化新方法：用弱模型在线蒸馏高效提升强模型推理",
+      "离散扩散模型理论统一：厘清去噪器、分数比和桥接预测器",
+      "LLM 内部线性编码剩余输出长度，启发新的解码策略",
+      "MetaSkill-Evolve 让智能体通过双时间尺度元技能递归自我进化",
+      "CompactionRL 用上下文压缩解决 RL 智能体长程任务溢出问题"
+    ],
+    "ai-hf": [
+      "智谱 GLM-5.2 MoE 模型以 3,535 点赞登顶今日热度第一",
+      "NVIDIA 发布 3B 参数视觉定位模型 LocateAnything-3B",
+      "百度 Unlimited-OCR 无限制文字识别模型下载量超百万",
+      "Qwen 衍生模型霸榜，GGUF 量化和无审查版下载量惊人",
+      "Google 发布表格基础模型 tabfm，开辟结构化数据 AI 应用",
+      "Mistral Leanstral-1.5 119B 总参仅激活 6B，极致效率"
+    ],
+    "ai-community": [
+      "开发者聚焦 AI Agent '虚假完成' 和 '谄媚' 等可靠性实战难题",
+      "LLM API Key 安全存放成热议，警惕供应链攻击窃取",
+      "事故警示：AI Agent 因上下文迟滞尝试推送已回滚的错误代码",
+      "开发者用 '无聊检查' 而非改进模型来减少 Agent 撒谎现象",
+      "LLM API 错误处理指南：429 限流和重试机制的最佳实践",
+      "探讨 'Prompt 编译' 与 '黑板上工程' 等 AI 系统新范式"
+    ]
+  }
+}
