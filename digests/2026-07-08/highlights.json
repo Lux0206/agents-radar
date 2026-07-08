@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.204发布但含严重回归Bug",
+      "OpenAI Codex发布rust-v0.143.0，10个PR涉及架构",
+      "Gemini CLI夜间构建失败，P1 Bug集中爆发",
+      "OpenCode v1.17.15发布，50个Issues更新",
+      "Qwen Code v0.19.7发布，聚焦会话修复",
+      "Pi项目兼容性问题成热点，扩展API受关注"
+    ],
+    "ai-agents": [
+      "OpenClaw无版本发布，但合并141条PR",
+      "消息丢失与会话状态成稳定性两大痛点",
+      "#101953修复高分辨率图片导致模型调用失败",
+      "#101832修复Gemini推理级别配置被覆盖Bug",
+      "#101782修复Slack线程标签Emoji截断问题",
+      "多智能体协作鲁棒性引发社区强烈关注"
+    ],
+    "ai-trending": [
+      "pocket-tts开源AI语音合成引擎登榜",
+      "TencentCloud发布CubeSandbox AI Agent沙箱",
+      "meetily AI会议助手项目获关注",
+      "ai-job-search AI求职框架进入热榜",
+      "system_prompts_leaks收集LLM提示词泄露",
+      "awesome-claude-code聚合Claude编码资源"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude Sonnet 5，主打智能体能力",
+      "Sonnet 5性能接近Opus 4.8但价格更低",
+      "Anthropic揭示模型内部'全局工作空间'研究",
+      "J-space发现类似人类意识访问的神经模式",
+      "OpenAI官网今日无增量更新",
+      "Sonnet 5网络安全能力远低于Opus系列"
+    ],
+    "ai-hn": [
+      "Rowboat开源本地替代Claude Desktop获108分",
+      "Anthropic分享Claude Code幕后开发故事",
+      "Claude Fable 5权限延长引发社区热议",
+      "开发者用1-bit WebGPU运行1.7B浏览器LLM",
+      "Anthropic对Abnormal.ai提起法律诉讼",
+      "J-Space机制展示Claude内部推理步骤"
+    ],
+    "ai-arxiv": [
+      "DepthWeave-KV实现长上下文KV缓存压缩",
+      "FreqDepthKV频率指导的KV缓存压缩",
+      "DT-Guard实现无推理的安全护栏",
+      "早期探针级联提前终止失败Agent任务",
+      "任务分解重排序优化Agent技能检索",
+      "ELSA3D弹性语义锚定统一3D理解与生成"
+    ],
+    "ai-hf": [
+      "GLM-5.2以3599点赞登顶Hugging Face榜首",
+      "nvidia LocateAnything-3B视觉定位下载超140万",
+      "DeepSeek-V4-Pro-DSpark搭载推理加速技术",
+      "Qwen AgentWorld-35B-A3B专为Agent场景优化",
+      "baidu Unlimited-OCR下载超108万",
+      "HauhauCS无审查Qwen3.6模型下载量超282万"
+    ],
+    "ai-community": [
+      "开发者反思过度依赖AI侵蚀系统理解能力",
+      "AI对话从'能做什么'转向'能信任吗'",
+      "RAG系统在处理表格时频繁生成错误结果",
+      "泄漏的嵌入向量可逆向重建原始敏感文本",
+      "多智能体架构模式将LLM比作'猛兽'",
+      "AI编码工具使用正成为招聘市场信号"
+    ]
+  }
+}
