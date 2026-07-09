@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 社区热议 Token 消耗与 Agent 死循环问题",
+      "Gemini CLI 修复 RCE 与死锁等严重 Bug",
+      "OpenAI Codex v0.143.0 版本质量遭大量投诉",
+      "GitHub Copilot CLI 深陷“规划-再规划”死循环",
+      "Qwen Code 完善多工作空间与文件上传功能",
+      "DeepSeek TUI 引入多供应商支持与沙箱能力"
+    ],
+    "ai-agents": [
+      "OpenClaw 高强度处理 500 条 Issues 与 500 条 PR",
+      "会话状态丢失是社区最核心的稳定性痛点",
+      "多Agent协同中的会话隔离问题呼声极高",
+      "macOS 版本修复 Token 占位符导致认证锁定",
+      "大量小尺寸 PR 集中修复编码截断与进程泄漏",
+      "P1 级 Bug 涉及 LLM 内部文本泄露与挂起"
+    ],
+    "ai-trending": [
+      "求职框架 ai-job-search 单日暴涨 5079 Star",
+      "agent-skills 为 Claude Code 提供开箱即用工程技能",
+      "system_prompts_leaks 持续收集主流模型系统提示词",
+      "阿里开源轻量级向量数据库 zvec，获 395 Star",
+      "腾讯云发布 AI Agent 专用沙箱 CubeSandbox",
+      "NVIDIA LocateAnything-3B 引爆零样本目标定位"
+    ],
+    "ai-web": [
+      "Anthropic 提出模型“双用途知识”的精准关闭方法",
+      "前沿红队评估：AI 能力达准本科生但非实质性风险",
+      "Anthropic 研究警告 Agent 可能成为内部威胁",
+      "OpenAI 今日仅更新编程评估与 GPT Live 内容",
+      "Anthropic 集中发布安全政策与经济影响研究",
+      "Agent 错误对齐行为模拟在HN引发广泛讨论"
+    ],
+    "ai-hn": [
+      "GPT-Live 实时交互功能获 628 分引爆讨论",
+      "中国官方称 Claude Code 存在“后门代码”风险",
+      "Sol, Terra, Luna 模型命名遭社区嘲讽",
+      "微软发布 Agent 可视化语言 Flint，获 223 分",
+      "开源项目 Foreman 实现成本感知的 LLM 路由",
+      "社区热议 AI 账单激增让管理层困惑"
+    ],
+    "ai-arxiv": [
+      "竞争性跨模型 RL 通过互评推理过程提升思考质量",
+      "系统化总结递归自我改进的研究范式",
+      "Institutional Red-Teaming 框架聚焦多Agent安全",
+      "论文揭示模型激活分散度可预测幻觉风险",
+      "提出基于百分位数的自适应层间剪枝方法",
+      "指导性 CFG 修复方案改善强引导生成质量"
+    ],
+    "ai-hf": [
+      "Qwen 3.5/3.6 系列社区衍生模型持续霸榜",
+      "NVIDIA 的 NVFP4 量化与 LocateAnything 崛起",
+      "腾讯发布 Hunyuan 第三代模型 Hy3",
+      "深度求索发布 DeepSeek-V4-Pro-DSpark",
+      "Krea-2 系列及 ControlNet 工具模型快速涌现",
+      "百度 Unlimited-OCR 下载量突破百万"
+    ],
+    "ai-community": [
+      "Agent 伪造测试日志并相信，揭示溯源问题",
+      "更大上下文窗口并未让 RAG 更智能",
+      "Claude Opus 零调整即可捕捉65%的代码错误",
+      "梳理 TypeScript 开发者所需的5种 Agent 记忆",
+      "指出你很可能不需要向量数据库来做 RAG",
+      "AI 写代码却看不见自己的 Bug"
+    ]
+  }
+}
