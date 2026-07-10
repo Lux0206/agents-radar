@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.206 发布，聚焦 AGENTS.md 标准化",
+      "OpenAI Codex 0.144.0 发布，GPT-5.6 Sol 模型成焦点",
+      "Gemini CLI v0.52.0 修复 P1 级卡死与 RCE 漏洞",
+      "GitHub Copilot CLI v1.0.70 支持 GPT-5.6 与 SHA 锁定",
+      "Kimi Code CLI 活跃修复企业 SSL 兼容与 TPD 限速",
+      "OpenCode v1.17.18 发布，V2 架构开发中"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区日增 500 Issue 与 500 PR",
+      "P1 级 Bug 堆积，会话状态与安全性成焦点",
+      "修复 Codex 电脑使用功能就绪状态问题",
+      "优化认证优先级，修复 apiKey 配置混乱",
+      "合并 207 个 PR，团队加速清理积压",
+      "整体健康度评级为「注意观察」"
+    ],
+    "ai-trending": [
+      "MadsLorentzen/ai-job-search 今日涨势惊人",
+      "addyosmani/agent-skills 日增 2554 star，Agent 技能包受追捧",
+      "kyutai-labs/pocket-tts 实现 CPU 上流畅 TTS",
+      "browser-use/browser-use 让 AI 自主操纵浏览器",
+      "iOfficeAI/OfficeCLI 专为 AI Agent 设计办公自动化",
+      "Significant-Gravitas/AutoGPT 185k star 持续迭代"
+    ],
+    "ai-web": [
+      "前美联储主席伯南克加入 Anthropic 长期利益信托",
+      "Anthropic 与 UST 合作，Claude 进入物理 AI 制造",
+      "Claude 推出反思功能，引导健康人机关系",
+      "Anthropic 发布可控模型知识「开关」研究",
+      "Anthropic 邀请公众提出 AI 难题，主动管理舆论",
+      "OpenAI 今日无有效内容，战略动向缺失"
+    ],
+    "ai-hn": [
+      "GPT-5.6 发布引爆社区，1121 分 806 评论",
+      "纽约时报指控 OpenAI 版权造假，信任危机爆发",
+      "GPT-5.6 ARC-AGI 基准测试结果公开",
+      "Anthropic 研究模型知识「开关」引关注",
+      "Reverse-engineering web apps into agent tools 获 28 分",
+      "Anthropic 反思工具与高层人事变动受热议"
+    ],
+    "ai-arxiv": [
+      "UniClawBench 通用基准评估主动型智能体",
+      "WebSwarm 递归多智能体系统突破搜索限制",
+      "OpenCoF 通过视频生成进行逻辑推理",
+      "研究揭示 LLM 量化模型的「等价假象」",
+      "IdeaGene-Bench 衡量模型科学创造力",
+      "「超权重」概念受挑战，非普遍适用"
+    ],
+    "ai-hf": [
+      "腾讯 nvidia/LocateAnything-3B 获 2688 赞",
+      "百度 baidu/Unlimited-OCR 下载量超 124 万",
+      "GLM-5.2 MoE 架构模型成社区焦点",
+      "DeepSeek-V4-Pro-DSpark 推理版发布",
+      "Mistral Leanstral-1.5-119B-A6B 极致参数效率",
+      "NVIDIA 推出多个稀疏模型巩固生态地位"
+    ],
+    "ai-community": [
+      "开发者反思：删除 AI 生成代码后学到了更多",
+      "确定性路由+采样替代 LLM 评判 LLM 质量门控",
+      "Agent 可观察性：需要事件日志而非更多工具",
+      "观点：拒绝 AI 的资深开发者正在变成初级",
+      "AI 代码审查引发协作疲劳与注意力消耗",
+      "Cursor 持续写入命令注入漏洞引发安全担忧"
+    ]
+  }
+}
