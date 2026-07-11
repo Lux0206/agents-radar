@@ -1,0 +1,60 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.207发布，修复Agent无限递归问题",
+      "OpenAI Codex Alpha版集成新模型Sol",
+      "Gemini CLI频现Agent死循环和状态误报",
+      "Qwen Code发布v0.19.9和nightly双版本",
+      "Pi工具出现提供者兼容性和回归Bug",
+      "DeepSeek TUI推进v0.8.68里程碑版本"
+    ],
+    "ai-agents": [
+      "OpenClaw网关内存泄漏从350MB飙至15.5GB",
+      "子代理目标路由功能已合并，支持复杂工作流",
+      "Discord插件WebSocket断线重连问题已修复",
+      "嵌入式Prompt缓存边界失效Bug已定位",
+      "休眠模块梦境功能幽灵条目问题已修复",
+      "新原生应用本地化文件已合并，支持i18n"
+    ],
+    "ai-trending": [
+      "agent-skills单日暴涨1116星，Agent技能库爆发",
+      "mattpocock/skills获1712星，来自真实工程师配置",
+      "DesktopCommanderMCP为Claude提供终端控制能力",
+      "腾讯云开源AI Agent长期记忆方案TencentDB-Agent-Memory",
+      "TradingAgents将多智能体框架与金融交易结合",
+      "Cherry Studio集成300+AI助手，获48.4K星"
+    ],
+    "ai-hn": [
+      "苹果起诉OpenAI窃取商业机密登顶HN热榜",
+      "GPT-5.6 Sol Ultra证明圈双覆盖猜想引热议",
+      "GPT-5.6 Sol误删用户Mac全部文件引发安全担忧",
+      "Grok 4.5、Claude等12模型同场PK开发App",
+      "Meta因社区反弹紧急撤回AI图像功能",
+      "AI代理记忆策略选择决策树指南获工程界认可"
+    ],
+    "ai-arxiv": [
+      "Super Weights理论被证伪，模型压缩面临修正",
+      "量化偏差研究揭示准确率无法捕捉行为变化",
+      "AMALIA模型作为数据标注员存在显著权威偏见",
+      "UltraX提出自适应编程式预训练数据精炼方法",
+      "MoE模型剪枝方法MAESTRO精准移除劣质专家",
+      "UniClawBench发布通用主动智能体基准测试"
+    ],
+    "ai-hf": [
+      "GLM-5.2获3787赞，智谱MOE旗舰模型登顶",
+      "NVIDIA LocateAnything-3B下载量达145万",
+      "百度Unlimited-OCR下载超131万，全能OCR",
+      "DeepSeek-V4-Pro-DSpark聚焦推理加速",
+      "Leanstral-1.5仅6B激活参数达极致稀疏化",
+      "InternScience专为Agent场景定制MOE模型"
+    ],
+    "ai-community": [
+      "多AI提供方失败模式各异，开发者自建错误模型",
+      "50个AI Agent并行运行出现‘串号’事故",
+      "AI助手写代码安全漏洞频发，开发者自建Linter",
+      "反思：使用编码Agent是否像玩老虎机？",
+      "LangGraph多Agent流水线从编排到生产部署",
+      "技术博客未死，正演变为Agent记忆"
+    ]
+  }
+}
