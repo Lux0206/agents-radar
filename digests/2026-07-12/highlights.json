@@ -1,0 +1,52 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 修复密集，跨会话通信呼声高",
+      "Gemini CLI 修复 Agent '假成功'，安全加固",
+      "Pi 聚焦 GPT-5.6 模型适配，社区活跃",
+      "OpenAI Codex 速率限制重置缺陷引爆社区",
+      "Qwen Code 多工作区 RFC 热度高",
+      "DeepSeek TUI 跨平台支持有新进展"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.7.1-beta.5，优化引导体验",
+      "SQLite 状态管理与快照 PR 合并，修复数据风险",
+      "嵌入式提示缓存稳定性修复，降低模型成本",
+      "核心模型与 API 所有权收敛 PR 合并",
+      "新 Bug #104721 全部工具返回占位符文本",
+      "社区密集提交会话状态与内存泄漏报告"
+    ],
+    "ai-trending": [
+      "DesktopCommanderMCP 日增 909 Stars，Agent 再升级",
+      "superpowers 日增 740 Stars，定义技能框架",
+      "DeepSeek-Reasonix 专为 DeepSeek 模型定制",
+      "rig 模块化 LLM 框架，用 Rust 构建",
+      "CopilotKit 推动 AI 原生前端标准化",
+      "davila7/claude-code-templates 降低上手门槛"
+    ],
+    "ai-hn": [
+      "Mesh LLM 分布式 AI 计算获 129 分热议",
+      "Anthropic 发现 Claude 内部隐藏概念空间",
+      "Sqlsure 确定性检查 AI 生成 SQL 受关注",
+      "Confessor 可回放 Claude Code 访问的隐私信息",
+      "Qwen3.5-122B 在 Mac Studio 上高效运行",
+      "用户对 Anthropic 与 OpenAI 负面新闻强烈不满"
+    ],
+    "ai-hf": [
+      "NVIDIA LocateAnything-3B 视觉定位模型火爆",
+      "腾讯发布 Hy3 新一代语言模型",
+      "GLM-5.2 MoE 架构对话模型热度极高",
+      "Agent 模型 InternScience/Agents-A1 受追捧",
+      "NVIDIA Nemotron 75B 采用 NVFP4 量化格式",
+      "Mistral Leanstral-1.5 119B MoE 聚焦效率"
+    ],
+    "ai-community": [
+      "Slack 变 AI 队友，可自动打开 PR 获赞",
+      "自托管 SigNoz 追踪多步 LLM Agent 实践",
+      "Claude Code Token 账单削减 77% 经验分享",
+      "揭秘 Cursor 和 Claude Code 如何加载规则",
+      "Model Kombat 将 LLM 参数格斗游戏化",
+      "AI 导致环境与个人 burnout 问题引热议"
+    ]
+  }
+}
