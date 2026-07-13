@@ -1,0 +1,52 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code与OpenAI Codex社区体量最大，Bug反馈密集",
+      "Gemini CLI发布v0.52.0-nightly版本，快速迭代",
+      "Agent行为可控性成9大工具共同焦点",
+      "Token消耗计费与跨平台稳定性成普遍痛点",
+      "OpenCode验证性发布，社区关注度中高",
+      "Qwen Code夜间版构建失败，活跃PR达10条"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.7.1-beta.6，默认模型升级为GPT-5.6",
+      "新增Featherless、Claude Sonnet 5等新模型支持",
+      "社区会话状态丢失问题成为核心痛点",
+      "过去24小时处理500条Issue与500条PR",
+      "ClawRouter智能路由特性首次引入",
+      "工具输出图像化需求反映用户对可视化的渴望"
+    ],
+    "ai-trending": [
+      "AutoGPT与OpenHands领衔AI智能体/工作流类别",
+      "LangChain持续霸榜AI基础工具类热门项目",
+      "infiniflow/ragflow成RAG/知识库类焦点",
+      "vllm与ollama占据大模型/训练类前两名",
+      "Significant-Gravitas/AutoGPT社区活跃度极高",
+      "browser-use/browser-use项目聚焦浏览器自动化Agent"
+    ],
+    "ai-hn": [
+      "Claude Code发送33k Token引议，远超OpenCode的7k",
+      "苹果与OpenAI法律纠纷成讨论焦点",
+      "OpenAI安全主管离职引发内部治理担忧",
+      "LLM作为代码助手效率问题引发激烈争论",
+      "用户呼吁平台设立AI文章标记应对内容泛滥",
+      "自适应记忆项目Adaptive Recall基于MCP协议亮相"
+    ],
+    "ai-hf": [
+      "nvidia/LocateAnything-3B视觉定位模型下载量惊人",
+      "zai-org/GLM-5.2以3859点赞成最受关注国产模型",
+      "Qwen3.6-35B-A3B无审查版本下载超259万",
+      "社区对DeepSeek-V4与Gemma-4的GGUF版本需求旺盛",
+      "Supra-Labs/Supra-Router-51M充当模型智能路由器",
+      "InternScience/Agents-A1专为工具调用与任务规划优化"
+    ],
+    "ai-community": [
+      "GPT-5.6 Sol与Claude Fable 5成本性能大对比",
+      "OpenAI推出ChatGPT Work Agent，支持跨应用多步任务",
+      "LLM API账单失控避坑指南引发开发者共鸣",
+      "混合本地+云LLM：Ollama与Fable的决策框架",
+      "LLM长期记忆引用幻觉问题案例获23条热议",
+      "Jetson Nano上运行Ollama的基准测试数据受关注"
+    ]
+  }
+}
