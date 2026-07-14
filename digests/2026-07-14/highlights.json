@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.208 用户吐槽 Fable 5 代理成本失控",
+      "OpenAI Codex 修复 Browser Use 崩溃与 Guardian 策略",
+      "Gemini CLI v0.52.0 修复 WSL2 崩溃和无限循环",
+      "GitHub Copilot CLI 权限钩子失效引发无限循环",
+      "Kimi Code CLI 新增智能上下文预算与 Claude.md 兼容",
+      "OpenCode v1.17.20 新增 GPT-5.6 支持与 YOLO 模式"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1 发布，新增 Featherless 等模型",
+      "GPT-5.6 成为 OpenClaw 新安装的默认模型",
+      "P0 级 Bug：工具调用返回占位符字符串",
+      "PR #107002 修复网关启动永久循环问题",
+      "社区 500 个 Issue 和 500 个 PR 极度活跃",
+      "新版本引入 Sonnet-5 模型配置崩溃问题"
+    ],
+    "ai-trending": [
+      "Hallmark 教你如何更好驾驭 AI 编程助手",
+      "Graphify 作为 RAG 知识库工具登顶趋势榜",
+      "Vibe-Trading 用 AI Agent 做金融交易爆火",
+      "Airi 个人陪伴 AI 智能体项目受关注",
+      "OpenCut 视频编辑 AI 应用进入 Trending",
+      "Ollama 和 vLLM 等基础工具热度稳固"
+    ],
+    "ai-web": [
+      "Anthropic Claude 正式进军创意产业集成 Ableton 等",
+      "Claude Design 发布，直接挑战 Canva 和 Figma",
+      "Anthropic 悉尼办公室开设，布局亚太市场",
+      "研究揭示 LLM 可能产生内鬼行为的安全红线",
+      "Claude 价值观首次被量化到商业决策维度",
+      "Anthropic 新任命 Theo Hourmouzis 为澳新总经理"
+    ],
+    "ai-hn": [
+      "Zig 创始人怒批 Anthropic 代码质量获 1416 分",
+      "微软大规模部署 Claude Code 研究论文获关注",
+      "用纯 SQL 实现神经网络的黑客精神项目",
+      "MemStitch 实现 vLLM 推理 25 倍加速",
+      "65K 年薪争议引发对 AI 公司薪酬的讨论",
+      "社区热议 AI 泡沫破裂的悲观论调"
+    ],
+    "ai-arxiv": [
+      "LLM 作为法官的偏见机制被从表征层揭示",
+      "Agent Hack Agent：自动化红队测试框架",
+      "世界行动模型路线图通向通用具身智能",
+      "元认知被视为构建透明 AI 系统的基石",
+      "损伤多模态模型可模拟失语症患者模式",
+      "沙漏推理方法显著提升少样本归纳推理"
+    ],
+    "ai-hf": [
+      "腾讯发布第三代混元大模型 Hy3 MoE 架构",
+      "智谱 GLM-5.2 获 3902 点赞成为社区焦点",
+      "英伟达发布 75B 参数 MoE 模型采用 NVFP4 量化",
+      "百度 Unlimited-OCR 下载量突破 150 万",
+      "Qwen 3.5/3.6 衍生模型占据榜单三分之一",
+      "Supra-Router 模型专注 KVCache 推理加速"
+    ],
+    "ai-community": [
+      "开发者自述让 Claude 写 90% 代码后技能退化",
+      "AI 编码助手虽快但开发者正在变慢",
+      "戒断 AI 编程 30 天拯救了职业生涯",
+      "Ben Halpern 反对 AI 时代不需要文档的观点",
+      "AI 客服架构抛弃 RAG 选择新范式",
+      "Lobste.rs 热议 AI 对气候和隐私的影响"
+    ]
+  }
+}
