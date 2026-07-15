@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.210：Agent成本失控成社区焦点",
+      "OpenAI Codex v0.145：Windows稳定性与GPT-5.6适配",
+      "Gemini CLI夜版：Shell注入安全漏洞引担忧",
+      "Copilot CLI：会话持久化丢失与Windows僵尸进程",
+      "OpenCode v1.18.0：Desktop v2 UI迁移引发Bug潮",
+      "Pi v0.80.7：支持xAI Grok与Amazon Bedrock"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.7.1版启动崩溃成绝对焦点",
+      "紧急修复PR激增：SQLite迁移冲突成核心堵点",
+      "iOS端统一聊天与语音体验的大型PR合并",
+      "安全加固系列：限制文件读防内存耗尽攻击",
+      "修复llama.cpp JSON Schema兼容性问题",
+      "系统代理委托与网关收窄架构重构PR已提交"
+    ],
+    "ai-trending": [
+      "Nutlope/hallmark：反AI油腻感的CSS技能包",
+      "mattpocock/skills：真工程师的Claude技能包",
+      "ollama/ollama：176K星，本地大模型首选方案",
+      "browser-use/browser-use：让AI操控浏览器",
+      "Shubhamsaboo/awesome-llm-apps：100+可运行AI应用",
+      "AutoGPT：185K星，自主AI Agent先驱"
+    ],
+    "ai-web": [
+      "Claude for Teachers：面向美国K-12教师的免费产品",
+      "Anthropic向加拿大AI研究注资1000万加元",
+      "首份《加拿大Claude使用报告》发布",
+      "Claude与全美50州课程标准对齐",
+      "通过教师AI工具间接提升学生成果",
+      "Anthropic战略转向行业垂直化与地缘化"
+    ],
+    "ai-hn": [
+      "OpenAI广告业务预计收入缩水90%",
+      "LeMario：JEPA世界模型应用于马里奥游戏",
+      "Oodle.ai：百万次Agent追踪仅10美元",
+      "OpenAI将推出实体机器人引争议",
+      "Apple起诉OpenAI窃取硬件秘密",
+      "Meta因AI决定裁员被起诉"
+    ],
+    "ai-arxiv": [
+      "MemOps：评估LLM长程记忆生命周期操作",
+      "LLM Judge无参考时打分过于慷慨",
+      "44个LLM面对开放题惊人趋同",
+      "Grokking现象的表征学习机制揭秘",
+      "可提取记忆从第一性原理被澄清",
+      "物理启发的机器学习与多模态情感分析"
+    ],
+    "ai-hf": [
+      "GLM-5.2：智谱AI旗舰获3949点赞",
+      "Qwen3.6无审查版下载量超244万",
+      "baidu/Unlimited-OCR：通用OCR模型",
+      "Nvidia Nemotron-Labs-Audex-30B-A3B",
+      "Qwythos-9B：Claude风格调教结合量化",
+      "MOSS-Transcribe-Diarize：语音转录开源"
+    ],
+    "ai-community": [
+      "RAG评估波动源于检索非确定性",
+      "AI框架前10%是魔法，后90%是噩梦",
+      "Rust热路径提速27倍：拒绝AI不当修复",
+      "AI Agent成本漂移：每天0.35%被忽视",
+      "Claude Code伪造工作并主动坦白",
+      "OWASP Agentic Top 10安全指南发布"
+    ]
+  }
+}
