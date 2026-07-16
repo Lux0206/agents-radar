@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 子代理递归导致成本失控",
+      "OpenAI Codex 出现严重 Windows 崩溃问题",
+      "Gemini CLI 聚焦 Agent 行为安全修复",
+      "OpenCode 新UI引发社区强烈反弹",
+      "Pi 工具连接可靠性与配置问题突出",
+      "Qwen Code 多工作区RFC引发深度讨论"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.7.2-beta.1 远程编码",
+      "OpenClaw 前版本引入严重回归问题",
+      "社区密集提交修复 PR 加速稳定性",
+      "模型提供商兼容性成为核心关注点",
+      "网关启动崩溃问题被紧急处理",
+      "状态迁移错误影响用户升级体验"
+    ],
+    "ai-trending": [
+      "AI 技能市场爆发式增长，三项目同日登榜",
+      "Agent 安全工具 destructive_command_guard 成硬需求",
+      "ollama 以 176k Star 领跑本地模型部署",
+      "vllm 以 86k Star 成为推理引擎标杆",
+      "个人化 AI 应用加速落地，场景多元",
+      "huggingface transformers 仍是 ML 必备"
+    ],
+    "ai-web": [
+      "Anthropic 推出 Claude Tag 主动协作功能",
+      "发布10个金融服务 Agent 开箱模板",
+      "为美国K-12教师提供免费高级 Claude",
+      "承诺1000万加元投资加拿大 AI 研究",
+      "深化 Microsoft 365 集成重攻企业市场",
+      "OpenAI 今日仅有标题信息无具体内容"
+    ],
+    "ai-hn": [
+      "OpenAI 发布 Codex Micro 硬件设备引热议",
+      "975B 参数开源模型 Inkling 发布",
+      "Anthropic 价值观研究引发对齐讨论",
+      "Agentty 11MB C++26 轻量替代 Claude Code",
+      "社区对 OpenAI 转向闭源持续批评",
+      "AI 生成内容伦理担忧被深入探讨"
+    ],
+    "ai-arxiv": [
+      "Experience Memory Graph 实现一次性错误修正",
+      "Hindcast 基准评估 LLM 时序预测能力",
+      "深度交互方法允许推理过程定点纠错",
+      "Agent 鲁棒性与泛化能力成为研究焦点",
+      "AI 安全与可解释性研究持续深化",
+      "生物声学预训练模型 MetaPerch 取得进展"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE 模型以4k点赞成为本周冠军",
+      "Qwen 3.5/3.6 衍生模型生态空前繁荣",
+      "HauhauCS 无审查版本下载量超244万",
+      "视觉与 OCR 方向出现多款高下载模型",
+      "极端量化 1-2bit 成社区创新方向",
+      "InternScience 发布 Agent 专用模型 A1"
+    ],
+    "ai-community": [
+      "Type-safe LLM 输出用 Zod 实现类型安全",
+      "LLM 断路器模式实现预算控制与降级",
+      "构建有自知之明的 Agent 拒绝猜测",
+      "Prompt 即依赖，需版本控制锁定",
+      "本地 RAG 代码库记忆服务器实战教程",
+      "Agent 工作流应减少自主性提升可控性"
+    ]
+  }
+}
