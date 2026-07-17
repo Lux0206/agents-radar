@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.212 发布，成本与限额问题成社区焦点",
+      "OpenAI Codex Rust 版快速迭代，Windows 性能问题引热议",
+      "Gemini CLI v0.52.0 发布，Agent 停滞/死锁 Bug 严重",
+      "GitHub Copilot CLI v1.0.72 稳定但会话'变砖'问题突出",
+      "OpenCode v1.18.3 发布，TUI 主题优化和 Provider 集成",
+      "Pi v0.80.10 发布，Bug 修复迅速，新供应商集成受关注"
+    ],
+    "ai-agents": [
+      "OpenClaw 项目 24 小时内 500 条 Issue 和 500 条 PR",
+      "v2026.7.1 版本引入多个 P0/P1 回归性Bug亟待修复",
+      "PR #96250 修复网关高负载下 OOM 崩溃循环问题",
+      "PR #97922 修复子代理交付结果被静默丢弃的问题",
+      "跨平台桌面应用需求 Issue #75 获 114 条评论",
+      "项目处于'热修复'主导状态，稳定性是社区核心诉求"
+    ],
+    "ai-trending": [
+      "hallmark 日增 3372 Stars，反 AI 低质量技能受追捧",
+      "mattpocock/skills 爆火，AI 编码规范成开发者新资产",
+      "Graphify 日增 1107 Stars，代码转知识图谱能力突出",
+      "openinterpreter 面向 Kimi K3 等开源模型的编码 Agent",
+      "openai/copilot-sdk 发布，Copilot 能力集成到任何应用",
+      "mem0 持续火热，AI 长期记忆成可靠 Agent 共识基础"
+    ],
+    "ai-web": [
+      "OpenAI 发布'青少年与安全 AI'专题文章抢占议题",
+      "Anthropic 今日无新内容，处于战略静默期",
+      "OpenAI 试图绑定'安全'与'青少年'塑造责任形象",
+      "预示未来将推出青少年专属 API 及更严格合规审查",
+      "Anthropic 沉默或因超级对齐研究未达公开节点",
+      "两大公司呈现进攻 vs 蓄力的差异化战略节奏"
+    ],
+    "ai-hn": [
+      "$100 AI 音乐视频对比 Claude Fable 5 与 GPT-5.6",
+      "传统 ML (朴素贝叶斯) 可有效检测 LLM 生成文本",
+      "LM Studio Bionic 让本地模型具备 Agent 能",
+      "ReasonGate 可解释门控阻止 LLM 提示注入",
+      "YC 创始人投身 AI 实验室引发人才流动热议",
+      "AI 安全、数据隐私和监管博弈讨论异常活跃"
+    ],
+    "ai-arxiv": [
+      "研究揭示预训练数据可通过'计算宣传'被毒",
+      "质疑 IRT 心理测量学在 AI 评估中的适用性",
+      "SearchOS-V1 多智能体协作解决长任务漂移问题",
+      "提出无需重新训练的'原地'分词器扩展方法",
+      "发现模型内部存在'语法正确性'线性表征",
+      "在隐藏状态中检测具身智能体的物理世界风险"
+    ],
+    "ai-hf": [
+      "Bonsai-27B 三进制量化模型下载量爆发式增长",
+      "GLM-5.2 MoE 架构成周赞榜冠军（4030赞）",
+      "Qwythos-9B GGUF 版下载量突破 200 万",
+      "Qwen3.6-35B-A3B 取消审查限制争议性高",
+      "Inkling 全新多模态对话模型支持图文推理",
+      "Agents-A1 基于 Qwen3.5 MoE 的 Agent 模型"
+    ],
+    "ai-community": [
+      "LLM Evals：构建有用、正确、安全的评估体系",
+      "AI 生成代码是'小额贷款'终需偿还技术债务",
+      "构建 Agent 可观测性工具解决'黑箱'痛点",
+      "评估集污染导致 0.94 高分为虚假数据",
+      "编码 Agent 使用'反常识'经验谈引发共鸣",
+      "AI 基础设施平民化与宏观社会影响形成对照"
+    ]
+  }
+}
