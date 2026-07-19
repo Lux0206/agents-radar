@@ -1,0 +1,52 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code蓝屏Bug引热议，复制粘贴功能失效",
+      "OpenAI Codex取消5小时限制获64个支持",
+      "Gemini CLI子代理被曝虚假报告成功执行",
+      "GitHub Copilot CLI支持1M上下文获62点赞",
+      "Qwen Code子代理污染主会话引发关注",
+      "DeepSeek TUI遭吐槽AI不遵循用户指令"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.7.2-beta.3版本",
+      "新版本支持远程编码会话与云工作节点",
+      "219个PR被合并，边界加固修复大量Bug",
+      "P0/P1严重Bug仍有报告，状态迁移问题突出",
+      "社区贡献与维护活动远超预期",
+      "SQLite迁移顺序导致启动失败已修复"
+    ],
+    "ai-trending": [
+      "AirLLM用4GB显卡运行70B参数大模型",
+      "Kimi CLI登榜，将AI能力带入命令行",
+      "代码智能图项目解决Agent迷失痛点",
+      "Apache OSSIE统一AI与BI语义元数据",
+      "vllm持续霸榜，高性能推理标杆",
+      "G0DM0D3项目旨在突破AI聊天限制"
+    ],
+    "ai-hn": [
+      "GPT-5.6被曝解决30年数学难题引热议",
+      "设置闲置Mac供Claude Code操控教程走红",
+      "特朗普政府被指干预前沿AI模型访问",
+      "单Token指纹识别LLM新方法引关注",
+      "开源的Claude Design替代品获77k星",
+      "AI狂潮批判文章与Anthropic广告引焦虑"
+    ],
+    "ai-hf": [
+      "GLM-5.2以4131点赞领跑开源模型",
+      "腾讯Hy3加入混元系列开源阵营",
+      "Qwythos-9B融合Claude推理成社区宠儿",
+      "百度Unlimited-OCR下载量超200万",
+      "Qwen3.6-MoE激进未审查版下载量惊人",
+      "Wan-Dancer-14B实现AI舞蹈视频生成"
+    ],
+    "ai-community": [
+      "PDF文档成LLM Token消耗黑洞引关注",
+      "安全Agent从工具执行器升级为决策引擎",
+      "20M行缓存表更新不掉AI记忆受点赞",
+      "AI对立机制让多个模型互相辩论提质量",
+      "企业AI平台需建立七层安全边界引思辨",
+      "63% Token流量流向开放权重模型"
+    ]
+  }
+}
