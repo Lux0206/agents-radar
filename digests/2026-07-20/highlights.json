@@ -1,0 +1,52 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code改用Rust编写的Bun引擎引发热议",
+      "OpenAI Codex上下文窗口从372k降至272k",
+      "Pi和OpenCode面临内存泄漏与稳定性问题",
+      "Kimi CLI日增410星增长迅猛",
+      "Qwen Code发布2个新版本含正式版",
+      "Gemini CLI迁移不确定性引社区担忧"
+    ],
+    "ai-agents": [
+      "OpenClaw社区超800条更新但无新版本发布",
+      "安全性和会话状态一致性成讨论焦点",
+      "372条待合并PR显示核心团队审查压力",
+      "修复上下文边界和子进程僵死的多项PR",
+      "兼容Firecrawl等第三方服务的错误处理改进",
+      "CLI用户体验优化：配置阶段校验模型有效性"
+    ],
+    "ai-trending": [
+      "《AI Agent》开源书籍日增1734星登顶Trending",
+      "ktransformers异构推理框架日增360星",
+      "单张4GB GPU运行70B模型的airllm方案",
+      "Kimi CLI日增410星成CLI Agent新宠",
+      "Headroom工具可压缩Agent token20-90%",
+      "GitHub Copilot SDK标志平台化生态演进"
+    ],
+    "ai-hn": [
+      "Claude Code改用Bun引擎获413分577评论",
+      "OpenAI减少Codex上下文窗口引争议",
+      "AI编码Agent并行工具Shikigami获关注",
+      "Claude Fable或发现雅可比猜想反例",
+      "OpenAI挖角苹果人才被指破坏硅谷潜规则",
+      "GPT-5.6潜在的文件误删问题引发讨论"
+    ],
+    "ai-hf": [
+      "百度Unlimited-OCR下载量达210万",
+      "GLM-5.2 MoE架构以4172星领跑讨论",
+      "Qwythos-9B量化版下载量超210万",
+      "Gemma-4-31B-it登顶多模态对话榜",
+      "低比特量化生态催生Bonsai-27B系列",
+      "视频生成新星Wan-Dancer-14B引发关注"
+    ],
+    "ai-community": [
+      "一行业务卡死AI Agent暴露超时机制缺陷",
+      "实时AI管线实测LLM并非性能瓶颈",
+      "Agent成本控制难题：停止计费不等于停止风险",
+      "OneNote MCP服务器教程详解微软认证",
+      "AI生成PNG中可能隐藏完整提示词",
+      "GPT-5.6被指解决30年数学难题未受关注"
+    ]
+  }
+}
