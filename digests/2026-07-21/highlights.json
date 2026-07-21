@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 子代理无限递归问题突出",
+      "Agent 行为的可预测性与可控性成焦点",
+      "MCP 生态健壮性成工具成熟度关键",
+      "Kimi Code CLI 活跃度明显低于竞品",
+      "Windows 平台用户体验亟需改善",
+      "OpenAI Codex 与 Gemini CLI 竞争激烈"
+    ],
+    "ai-agents": [
+      "OpenClaw 项目 PR 合并率仅24.8%",
+      "高优先级会话状态 Bug 仍未解决",
+      "PR #112030 修复流式响应永久崩溃",
+      "Windows 平台子进程遗留问题已修复",
+      "MCP OAuth 漏洞获修复增强安全性",
+      "Control UI 长消息折叠功能上线"
+    ],
+    "ai-trending": [
+      "code-review-graph 日增1833星",
+      "语音AI赛道 voicebox 等项目爆发",
+      "ktransformers 异构推理框架日增458星",
+      "MCP协议生态 OmniRoute 加速普及",
+      "kimi-cli 由月之暗面官方推出",
+      "LangChain 与 Ollama 生态地位稳固"
+    ],
+    "ai-web": [
+      "Anthropic 资助罕见病研究最高5万美元",
+      "OpenAI 发布长周期模型安全对齐研究",
+      "Anthropic 转向主题式召集科研资助",
+      "OpenAI 研究从对话安全迈向行为安全",
+      "Anthropic 双轨并行孵化产业创新",
+      "Anthropic 直接绑定开发者构建生态护城河"
+    ],
+    "ai-hn": [
+      "Kimi K3 与 Anthropic 经济学分析最热",
+      "AI 沙箱逃逸传闻引发社区高度敏感",
+      "AI 电影制作流水线项目获展示关注",
+      "长周期模型安全对齐研究引深思",
+      "AI 对教育领域影响成讨论热点",
+      "美国社会AI反弹情绪影响政治生态"
+    ],
+    "ai-arxiv": [
+      "自动化发现系统无通用最佳框架",
+      "SWE-Pruner Pro 实现智能上下文裁剪",
+      "指令调优揭示了模型逢迎行为根源",
+      "激活导向可精细控制LLM推理路径",
+      "自我蒸馏提升开放式任务强化学习",
+      "长期推理可微知识蒸馏取得突破"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B 多模态模型下载近1200万",
+      "27B三值化模型 Bonsai 下载破126万",
+      "百度 Unlimited-OCR 下载超212万",
+      "Kimi K2.7-Code 代码专用版下载71万",
+      "prism-ml 极低比特量化模型成主流",
+      "腾讯 Hy3 和智谱 GLM-5.2 稳居前列"
+    ],
+    "ai-community": [
+      "AI生成代码所有权与法律责任引热议",
+      "本地化不能解决AI Agent安全问题",
+      "CrewAI 部署踩坑实录引开发者共鸣",
+      "排行榜高分模型不一定适合实际任务",
+      "AI工具对初级开发者成长存双刃剑",
+      "Agent 记忆系统与销售自动化受关注"
+    ]
+  }
+}
