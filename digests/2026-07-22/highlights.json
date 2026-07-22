@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.217 发布，MCP 稳定性问题集中修复",
+      "OpenAI Codex 重磅重构 HTTP 客户端，Windows 性能成焦点",
+      "Gemini CLI v0.52.0 紧急安全修复，Agent 可观测性提升",
+      "Pi 发布 v0.81.0/v0.81.1，新功能引发社区激烈反馈",
+      "Qwen Code v0.20.1 聚焦模型兼容性，`enable_thinking` 成热点",
+      "DeepSeek TUI v0.9.1 发布冲刺，大量关键 PR 密集合入"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区异常活跃，24小时内 Issues 与 PR 均达 500 条",
+      "Gateway 稳定性大修：修复会话卡死与 Linux 子窗口泄露",
+      "媒体处理管道重大重构，基于位置的架构奠定性能基础",
+      "子代理模型选择功能修复，细粒度控制能力增强",
+      "密钥遮蔽与权限模型成社区安全讨论焦点",
+      "P0 级数据库损坏回归与 MCP 工具注入 Bug 被快速修复"
+    ],
+    "ai-trending": [
+      "`ai-agent-book` 今日最热，单日暴涨 4624 星",
+      "`code-review-graph` 爆火，AI 代码审查成本大幅降低",
+      "`i-have-adhd` 获 1866 星，专注 ADHD 友好型 Agent 输出",
+      "`llmfit` 用 Rust 实现本地模型兼容性一键评估",
+      "`tradingview-mcp` 连接 Claude 与 TradingView 实现交易自动化",
+      "`vllm` 持续霸榜，高吞吐 LLM 推理服务已成行业基石"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Opus 4.8，支持 effort 控制与动态工作流",
+      "Opus 4.8 快速模式价格比前代便宜 3 倍，性能更优",
+      "Anthropic 正式推出 Claude for Teachers，深耕教育垂直领域",
+      "Sonnet 5 代理性能接近 Opus 4.8，但价格更低且更安全",
+      "Opus 4.7 首次应用针对性安全措施降低网络攻击能力",
+      "OpenAI 今日仅有一篇董事会成员变动更新，产品层面沉寂"
+    ],
+    "ai-hn": [
+      "OpenAI 模型攻击突破 Hugging Face 安全防护引广泛担忧",
+      "Anthropic 因使用盗版书籍训练 Claude 被判赔偿 15 亿美元",
+      "Claude 不是编译器：LLM 随机性本质成为社区辩论焦点",
+      "用 GPT-5.6/Claude/Gemini 绘制蒙娜丽莎引发趣味对比",
+      "Orate 发布本地神经 TTS 队列工具，离线可用受好评",
+      "CodeAlmanac 从聊天记录生成 Karpathy 风格代码库维基"
+    ],
+    "ai-arxiv": [
+      "RLVR 推理增强全面深化，成本-质量权衡研究首次系统化",
+      "证据感知强化学习解决长上下文推理中的重复复制问题",
+      "GAMUT 基准开源，填补长文本生成事实完整性评估空白",
+      "CodeRescue 提出预算校准路由，智能平衡编程 Agent 成本",
+      "特权信息引导的 GRPO 方法显著提升困难推理任务表现",
+      "智能体系统安全性与可审计性成为部署环境研究热点"
+    ],
+    "ai-hf": [
+      "`google/gemma-4-31B-it` 下载量超 1200 万，大厂多模态霸榜",
+      "`zai-org/GLM-5.2` 获 4285 赞，MoE 架构成社区新宠",
+      "`prism-ml` 三元量化 27B 模型至 2-bit，极端压缩里程碑",
+      "`Bonsai-27B-gguf` 1-bit 量化版下载量超 140 万引热议",
+      "`HauhauCS` 微调 Qwen3.6 无审查版因极端性能爆火",
+      "`Qwen3.5-32B` 系列涌现大量思考与定制化变体模型"
+    ],
+    "ai-community": [
+      "K8s MCP 服务器 vs kubectl 基准测试：工具调用减少 76%",
+      "`hallint` 发布，专治 AI 生成代码中的安全漏洞",
+      "AI Agent 发明虚假包名引发供应链安全警示",
+      "四款开源 AI 工具整合单一 MCP 服务器经验分享",
+      "开源模型竞赛：Kimi K3 获网络安全审计高分",
+      "反思 LLM 应用过度工程化，引发开发者共鸣"
+    ]
+  }
+}
