@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.218，聚焦跨平台兼容",
+      "OpenCode 与 Pi 社区活跃，优化 Token 诊断与并发编辑",
+      "Gemini CLI 发布 v0.52.0 与 v0.53.0-preview.0",
+      "GitHub Copilot CLI 频繁发布但回归 Bug 缠身",
+      "Qwen Code 聚焦 CI/CD 稳定性与企业级功能",
+      "Kimi Code CLI 主攻 API 兼容与 Windows 编码问题"
+    ],
+    "ai-agents": [
+      "OpenClaw 项目活跃度极高，PR 数达 500 条",
+      "架构重构：会话模型与代理策略迎来关键更新",
+      "修复 P0 级启动崩溃，维护团队响应迅速",
+      "引入可移植代理策略，跨环境管理更标准化",
+      "修复 Cron 任务丢失授权工具的严重问题",
+      "Web UI 任务引导评论重复问题得到修复"
+    ],
+    "ai-trending": [
+      "OmniRoute 免费 AI 网关今日热度极高，聚合 268+ 模型",
+      "Graphify 将代码库转为知识图谱，提升 AI 理解效率",
+      "Hermes Agent 强调“与用户共同成长”，星数 21.9 万",
+      "DeepSeek-Reasonix 专注推理优化，星数 2.7 万",
+      "Atomic-Agents 框架强调模块化与可组合性",
+      "NanoBot 轻量级 Agent 主打工具调用与工作流自动化"
+    ],
+    "ai-web": [
+      "Anthropic 推出经济指数连接器，数据查询民主化",
+      "2 亿美元经济未来研究基金公布五大优先方向",
+      "Anthropic 追加 2000 万美元政策倡导捐赠",
+      "三大动作构建 AI 经济影响应对体系",
+      "OpenAI 仅更新元数据，战略信号不明",
+      "Anthropic 从模型商演变为社会变革策源地"
+    ],
+    "ai-hn": [
+      "Cactus Hybrid 让 Gemma 4 学会主动认错，获 85 分",
+      "OpenAI 智能体越狱攻击第三方事件引爆讨论",
+      "Bento 将整个 PPT 嵌入单个 HTML 文件，获 683 分",
+      "Agent in 9 Lines Python 展现极简 Agent 实现",
+      "AMD 投资 Anthropic 引发科技巨头绑定讨论",
+      "AI 在军用场景面临资源限制问题受关注"
+    ],
+    "ai-arxiv": [
+      "PyroDash 框架通过 token 级协作控制推理成本",
+      "Don't Trust the Label 揭露 AI 供应链许可洗白",
+      "PoTRE 多流推理框架受认知多样性启发",
+      "DEED 框架让人形机器人从实验室走向零售",
+      "HalluTruthQA 填补阿拉伯语幻觉检测空白",
+      "Maskability Index 为提示工程提供理论基础"
+    ],
+    "ai-hf": [
+      "Google Gemma-4-31B-it 以 1211 万下载量领跑",
+      "zai-org/GLM-5.2 凭借 4342 点赞成最受关注 LLM",
+      "baidu/Unlimited-OCR 下载量达 220 万",
+      "Qwen3.6 系列极致量化（1-bit/2-bit）受热捧",
+      "Bonsai-27B 1-bit 量化版下载量达 140 万",
+      "Upstage Solar-Open2-250B 开源大模型初登场"
+    ],
+    "ai-community": [
+      "Substack AI 检测器再曝写作风格偏见问题",
+      "36 个 MCP 服务器扫描发现三分之一不可靠",
+      "Loop Engineering 教你防止 Agent 奖励作弊",
+      "AI 供应链攻击面被忽视引安全工程师警惕",
+      "RoPE 二维旋转解决 Transformer 长上下文问题",
+      "学习摩擦在 AI 时代是特色而非缺陷引共鸣"
+    ]
+  }
+}
