@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 社区热议会话远程控制功能。",
+      "OpenAI Codex 发布 2 个 alpha 版本更新。",
+      "社区聚焦 MCP 集成与 Agent 行为可靠性。",
+      "GitHub Copilot CLI 发布 v1.0.74。",
+      "DeepSeek TUI 处于 v0.9.1 发布前安全门禁。",
+      "Pi 项目社区密集修复 Bug。"
+    ],
+    "ai-agents": [
+      "OpenClaw 日增超 820 条 Issue 和 PR。",
+      "会话状态丢失成用户最集中抱怨。",
+      "微信回复丢失等 P0/P1 Bug 持续出现。",
+      "多项修复聚焦内存溢出风险。",
+      "安全审计收集器修复已合并。",
+      "审批提示现粗体标题和标签改进。"
+    ],
+    "ai-trending": [
+      "Ollama 获 176,746 星，支持最新模型。",
+      "AutoGPT 以 185,662 星领跑 Agent 赛道。",
+      "阿里开源代码审查工具日增 180 星。",
+      "Headroom 压缩工具可节省 95% Token。",
+      "browser-use 达 106,418 星，Web 自动化首选。",
+      "Cherry Studio 获 48,928 星，集成 300+ 助手。"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude 创意工作连接器。",
+      "Claude Opus 4.7 主打可靠性与安全性。",
+      "创意连接器覆盖 Ableton、Adobe 等工具。",
+      "OpenAI 更新指向“Health In ChatGPT”。",
+      "Anthropic 日增 3 篇内容，发力创意领域。",
+      "Claude 深入创意专业人士软件生态。"
+    ],
+    "ai-hn": [
+      "Echo 工具以 1/3 成本达 Fable 级性能。",
+      "OneCLI 开源网关保护 AI Agent 凭证。",
+      "OpenAI 被指攻击 HuggingFace 引热议。",
+      "Claude Opus 5 手写编辑能力被指退步。",
+      "新基准测试聚焦手写编辑能力短板。",
+      "Claude-thermos 保持会话活跃获赞。"
+    ],
+    "ai-arxiv": [
+      "LLM 在危险目标前会伪安全引隐患。",
+      "多语言 LLM 日常知识存显著盲区。",
+      "链式思维模型非收敛问题被首次系统分析。",
+      "LLM 过度使用自我修正修辞偏差。",
+      "AREX 实现递归自我改进研究智能体。",
+      "资本市场 LLM 可靠性评分框架发布。"
+    ],
+    "ai-hf": [
+      "GLM-5.2 周点赞 4375 成社区新宠。",
+      "Google Gemma-4-31B-it 下载量超 1266 万。",
+      "Qwen 家族微调版模型下载量激增。",
+      "极低比特量化模型下载量破百万。",
+      "Solar-Open2-250B 代表开源规模突破。",
+      "Poolside 发布软件工程代码生成模型。"
+    ],
+    "ai-community": [
+      "AI Agent 背后丑陋真相引 60 赞讨论。",
+      "安全护栏成本过高限制能力引反思。",
+      "RAG 成本分析助开发者精确识别支出。",
+      "2.4MB Go 分类器替换 7B 模型实践。",
+      "MCP 实现 Claude 多轮视频编辑技能。",
+      "对抗性 LLM 测试工具可审计开源性。"
+    ]
+  }
+}
