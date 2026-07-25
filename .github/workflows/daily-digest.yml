@@ -33,6 +33,13 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: DEBUG — 显示当前模型配置
+        run: |
+          echo "=== deepseek.ts 第20行 ==="
+          sed -n '20p' src/providers/deepseek.ts
+          echo "=== DEEPSEEK_MODEL 环境变量 ==="
+          echo "DEEPSEEK_MODEL=${DEEPSEEK_MODEL:-未设置}"
+
       - name: Run daily digest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
