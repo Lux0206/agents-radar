@@ -17,7 +17,7 @@ export class DeepSeekProvider extends OpenAICompatibleProvider {
     super({
       apiKey: opts?.apiKey ?? process.env["DEEPSEEK_API_KEY"],
       baseURL: DEEPSEEK_BASE_URL,
-      model: opts?.model ?? process.env["DEEPSEEK_MODEL"] ?? "deepseek-v4-flash",
+      model: "deepseek-v4-flash",
     });
   }
 }
