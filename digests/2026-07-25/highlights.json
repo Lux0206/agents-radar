@@ -1,0 +1,68 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.219/220发布，session限制引争议",
+      "OpenAI Codex rust-v0.146.0-alpha系列，日志膨胀问题突出",
+      "Gemini CLI Agent频繁挂起，Shell输出截断受诟病",
+      "GitHub Copilot CLI v1.0.75，Plan模式权限回归",
+      "Kimi Code CLI核心Bug：死循环与登录失败",
+      "OpenCode v1.18.5 CPU性能崩坏，安全漏洞被关注"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时Issues399、PRs500，高活跃修复期",
+      "v2026.7.x系列导致网关崩溃与会话初始化冲突",
+      "Cron任务隐藏失败修复，确保故障正确反映",
+      "浏览器弹窗挂起修复，改善Chrome插件体验",
+      "插件安装失败后重试阻塞问题被解决",
+      "会话列表性能问题：4900个session阻塞35-59秒"
+    ],
+    "ai-trending": [
+      "mattpocock/skills代理技能库新增1743星",
+      "claude-mem持久上下文项目获88k+星",
+      "mem0跨会话记忆库达61k+星",
+      "vllm高吞吐推理引擎87k星，生产首选",
+      "ollama本地运行大模型176k星，门槛最低",
+      "NousResearch/hermes-agent自主进化agent 220k星"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude Opus 5，性能接近Fable 5价格减半",
+      "2亿美元设立经济未来研究基金，关注AI经济影响",
+      "Project Pilot展示AI操控无人机能力评估",
+      "Opus 5产品分层引入‘努力程度’设置",
+      "Frontier-Bench v0.1性能比Opus 4.8翻倍",
+      "Opus 5成为Claude Max默认模型"
+    ],
+    "ai-hn": [
+      "Claude Opus 5获1706分1143评论，社区热议",
+      "Codex意外将私有仓库推至OpenAI服务器引安全担忧",
+      "要求Codex重设计页面导致数据泄露事件",
+      "OpenAI遭AI代理攻击Hugging Face，一周后才察觉",
+      "WSJ：美国大公司突然削减AI开销，泡沫见顶辩论",
+      "Stripe以100亿美元收购OpenRouter消息曝光"
+    ],
+    "ai-arxiv": [
+      "3D视觉语言理解统一框架VLM-IE3D首次架桥隐式与显式几何",
+      "OpenForgeRL实现任意环境下原生强化学习训练智能体",
+      "Windowed-MTP消除百万级token投机解码缓存瓶颈",
+      "非洲语言语音识别开源模型DONDO填补多语种空白",
+      "LongBench v2评估长上下文模型，社区广泛采用",
+      "超越谄媚：LLM道德推理中的结构化抵抗与顺从模式"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.2获4436赞，MoE-DSA架构第五代",
+      "baidu/Unlimited-OCR 3065赞，全能OCR黑马",
+      "google/gemma-4-31B-it下载1251万，基础模型影响力",
+      "Qwen3.6-35B-A3B下载641万，社区微调底模",
+      "poolside/Laguna-S-2.1多量化版本广泛传播",
+      "upstage/Solar-Open2-250B 555赞，250B参数开源探索"
+    ],
+    "ai-community": [
+      "上下文压缩工具git-lrc解决Agent记忆溢出",
+      "Anthropic Opus 5降价引发闭源与开源战略博弈",
+      "Unlimited-OCR单次解析40页PDF，GPU友好",
+      "MCP rug-pull漏洞：审批后工具可被篡改",
+      "豪萨语94M speakers模型填补多语工程空白",
+      "Lobste.rs热议开源权重与AI领导权，Microsoft声援"
+    ]
+  }
+}
