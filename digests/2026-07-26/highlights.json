@@ -1,0 +1,52 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code热点issue获4452赞，社区沸腾",
+      "OpenAI Codex发布新alpha版本，合并10个PR",
+      "Gemini CLI发布nightly版本，8个PR活跃",
+      "Qwen Code RFC讨论获30条评论，社区关注",
+      "跨工具标准化配置AGENTS.md成最大共识需求",
+      "会话持久化与多Provider兼容是共同攻坚方向"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时350条Issue、500条PR高度活跃",
+      "P0/P1回归漏洞：/new和/reset命令失效引关注",
+      "修复PR#113986调整Control UI启动基线防误报",
+      "PR#95359防止--force安装覆盖不同所有者技能",
+      "社区热议Memory Trust Tagging功能请求21评论",
+      "Session性能与Gateway连接修复PR持续推进"
+    ],
+    "ai-trending": [
+      "ECC框架获233,359星，Agent技能框架核心",
+      "Hermes Agent获220,515星，可定制智能体标杆",
+      "AutoGPT获185,686星，老牌自动化项目持续火热",
+      "阿里开源代码审查工具open-code-review日增431星",
+      "ego-lite为AI Agent打造最快浏览器，日增986星",
+      "Rust驱动语法检查器harper，隐私优先日增503星"
+    ],
+    "ai-hn": [
+      "Anthropic发布Claude5上下文工程新规则，191分热议",
+      "斯坦福报告试图剥离AI就业炒作，社区质疑缺数据",
+      "在8美元微控制器上成功运行28.9M参数LLM",
+      "Cloudflare推出AI流量选项，应对爬虫治理",
+      "OpenAI与ChatGPT连续宕机，引发服务依赖担忧",
+      "Debian社区提出LLM使用投票，引发治理讨论"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE模型获4448赞，下载70.7万",
+      "Qwen3.6-35B-A3B激活仅3B，下载641万，微调基座",
+      "百度Unlimited-OCR模型获3108赞，下载256万",
+      "微软Mage-Flow图像生成模型获277赞",
+      "Upstage开源250B参数Solar-Open2模型获567赞",
+      "'uncensored'社区模型持续火热，机器人操控模型崭露"
+    ],
+    "ai-community": [
+      "用SigNoz观测AI agent swarm，发现优化方向全错",
+      "手把手教你写CLAUDE.md定义agent技能与边界",
+      "Opus 5降价，开源阵营联合捍卫开放权重",
+      "连接3个MCP服务器到一个agent，快得吓人",
+      "NIST标准测试抓住AI计算器bug，传统测试全过",
+      "RAG系统失败剖析，生产团队如何预防"
+    ]
+  }
+}
